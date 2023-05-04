@@ -1,0 +1,1909 @@
+DlangUI log file
+2023-05-04 10:02:54.317 I  Log level changed to Trace
+2023-05-04 10:02:54.317 I  Logger is initialized
+2023-05-04 10:02:54.317 D  myWinMain()
+2023-05-04 10:02:54.317 I  Current executable: E:\dCode\dlearn\
+2023-05-04 10:02:54.317 I  Command line: 
+2023-05-04 10:02:54.317 I  Command line params: ["E:\\dCode\\dlearn\\dlearn.exe"]
+2023-05-04 10:02:54.317 V  Creating platform
+2023-05-04 10:02:54.317 V  Registering window class
+2023-05-04 10:02:54.317 V  Initializing font manager
+2023-05-04 10:02:54.317 I  Creating Win32FontManager
+2023-05-04 10:02:54.317 I  Win32FontManager.initialize()
+2023-05-04 10:02:54.318 D  registerFont(SansSerif,Marlett)
+2023-05-04 10:02:54.318 D  registerFont(SansSerif,Arial)
+2023-05-04 10:02:54.319 D  registerFont(SansSerif,Arial)
+2023-05-04 10:02:54.319 D  registerFont(SansSerif,Arial)
+2023-05-04 10:02:54.319 D  registerFont(SansSerif,Arial)
+2023-05-04 10:02:54.319 D  registerFont(SansSerif,Arial)
+2023-05-04 10:02:54.319 D  registerFont(SansSerif,Arial)
+2023-05-04 10:02:54.319 D  registerFont(SansSerif,Arial)
+2023-05-04 10:02:54.319 D  registerFont(SansSerif,Arial)
+2023-05-04 10:02:54.319 D  registerFont(SansSerif,Arial)
+2023-05-04 10:02:54.319 D  registerFont(SansSerif,Arial Black)
+2023-05-04 10:02:54.319 D  registerFont(SansSerif,Arial Black)
+2023-05-04 10:02:54.319 D  registerFont(SansSerif,Arial Black)
+2023-05-04 10:02:54.319 D  registerFont(SansSerif,Arial Black)
+2023-05-04 10:02:54.319 D  registerFont(SansSerif,Arial Black)
+2023-05-04 10:02:54.319 D  registerFont(SansSerif,Arial Black)
+2023-05-04 10:02:54.319 D  registerFont(SansSerif,Bahnschrift Light)
+2023-05-04 10:02:54.319 D  registerFont(SansSerif,Bahnschrift Light)
+2023-05-04 10:02:54.319 D  registerFont(SansSerif,Bahnschrift Light)
+2023-05-04 10:02:54.319 D  registerFont(SansSerif,Bahnschrift Light)
+2023-05-04 10:02:54.319 D  registerFont(SansSerif,Bahnschrift Light)
+2023-05-04 10:02:54.319 D  registerFont(SansSerif,Bahnschrift Light)
+2023-05-04 10:02:54.319 D  registerFont(SansSerif,Bahnschrift Light)
+2023-05-04 10:02:54.319 D  registerFont(SansSerif,Bahnschrift SemiLight)
+2023-05-04 10:02:54.319 D  registerFont(SansSerif,Bahnschrift SemiLight)
+2023-05-04 10:02:54.319 D  registerFont(SansSerif,Bahnschrift SemiLight)
+2023-05-04 10:02:54.319 D  registerFont(SansSerif,Bahnschrift SemiLight)
+2023-05-04 10:02:54.319 D  registerFont(SansSerif,Bahnschrift SemiLight)
+2023-05-04 10:02:54.319 D  registerFont(SansSerif,Bahnschrift SemiLight)
+2023-05-04 10:02:54.319 D  registerFont(SansSerif,Bahnschrift SemiLight)
+2023-05-04 10:02:54.319 D  registerFont(SansSerif,Bahnschrift)
+2023-05-04 10:02:54.319 D  registerFont(SansSerif,Bahnschrift)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift SemiBold)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift SemiBold)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift SemiBold)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift SemiBold)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift SemiBold)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift SemiBold)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift SemiBold)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift Light SemiCondensed)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift Light SemiCondensed)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift Light SemiCondensed)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift Light SemiCondensed)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift Light SemiCondensed)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift Light SemiCondensed)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift Light SemiCondensed)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift SemiLight SemiConde)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift SemiLight SemiConde)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift SemiLight SemiConde)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift SemiLight SemiConde)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift SemiLight SemiConde)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift SemiLight SemiConde)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift SemiLight SemiConde)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift SemiCondensed)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift SemiCondensed)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift SemiCondensed)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift SemiCondensed)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift SemiCondensed)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift SemiCondensed)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift SemiCondensed)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift SemiBold SemiConden)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift SemiBold SemiConden)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift SemiBold SemiConden)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift SemiBold SemiConden)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift SemiBold SemiConden)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift SemiBold SemiConden)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift SemiBold SemiConden)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift Light Condensed)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift Light Condensed)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift Light Condensed)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift Light Condensed)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift Light Condensed)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift Light Condensed)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift Light Condensed)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift SemiLight Condensed)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift SemiLight Condensed)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift SemiLight Condensed)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift SemiLight Condensed)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift SemiLight Condensed)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift SemiLight Condensed)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift SemiLight Condensed)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift Condensed)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift Condensed)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift Condensed)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift Condensed)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift Condensed)
+2023-05-04 10:02:54.320 D  registerFont(SansSerif,Bahnschrift Condensed)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Bahnschrift Condensed)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Bahnschrift SemiBold Condensed)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Bahnschrift SemiBold Condensed)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Bahnschrift SemiBold Condensed)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Bahnschrift SemiBold Condensed)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Bahnschrift SemiBold Condensed)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Bahnschrift SemiBold Condensed)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Bahnschrift SemiBold Condensed)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Calibri)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Calibri)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Calibri)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Calibri)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Calibri)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Calibri)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Calibri)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Calibri)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Calibri)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Calibri Light)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Calibri Light)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Calibri Light)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Calibri Light)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Calibri Light)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Calibri Light)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Calibri Light)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Calibri Light)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Calibri Light)
+2023-05-04 10:02:54.321 D  registerFont(Serif,Cambria)
+2023-05-04 10:02:54.321 D  registerFont(Serif,Cambria)
+2023-05-04 10:02:54.321 D  registerFont(Serif,Cambria)
+2023-05-04 10:02:54.321 D  registerFont(Serif,Cambria)
+2023-05-04 10:02:54.321 D  registerFont(Serif,Cambria)
+2023-05-04 10:02:54.321 D  registerFont(Serif,Cambria)
+2023-05-04 10:02:54.321 D  registerFont(Serif,Cambria)
+2023-05-04 10:02:54.321 D  registerFont(Serif,Cambria Math)
+2023-05-04 10:02:54.321 D  registerFont(Serif,Cambria Math)
+2023-05-04 10:02:54.321 D  registerFont(Serif,Cambria Math)
+2023-05-04 10:02:54.321 D  registerFont(Serif,Cambria Math)
+2023-05-04 10:02:54.321 D  registerFont(Serif,Cambria Math)
+2023-05-04 10:02:54.321 D  registerFont(Serif,Cambria Math)
+2023-05-04 10:02:54.321 D  registerFont(Serif,Cambria Math)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Candara)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Candara)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Candara)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Candara)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Candara)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Candara)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Candara)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Candara Light)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Candara Light)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Candara Light)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Candara Light)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Candara Light)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Candara Light)
+2023-05-04 10:02:54.321 D  registerFont(SansSerif,Candara Light)
+2023-05-04 10:02:54.321 D  registerFont(Cursive,Comic Sans MS)
+2023-05-04 10:02:54.321 D  registerFont(Cursive,Comic Sans MS)
+2023-05-04 10:02:54.321 D  registerFont(Cursive,Comic Sans MS)
+2023-05-04 10:02:54.321 D  registerFont(Cursive,Comic Sans MS)
+2023-05-04 10:02:54.321 D  registerFont(Cursive,Comic Sans MS)
+2023-05-04 10:02:54.321 D  registerFont(Cursive,Comic Sans MS)
+2023-05-04 10:02:54.321 D  registerFont(MonoSpace,Consolas)
+2023-05-04 10:02:54.321 D  registerFont(MonoSpace,Consolas)
+2023-05-04 10:02:54.321 D  registerFont(MonoSpace,Consolas)
+2023-05-04 10:02:54.321 D  registerFont(MonoSpace,Consolas)
+2023-05-04 10:02:54.321 D  registerFont(MonoSpace,Consolas)
+2023-05-04 10:02:54.321 D  registerFont(MonoSpace,Consolas)
+2023-05-04 10:02:54.321 D  registerFont(MonoSpace,Consolas)
+2023-05-04 10:02:54.321 D  registerFont(Serif,Constantia)
+2023-05-04 10:02:54.321 D  registerFont(Serif,Constantia)
+2023-05-04 10:02:54.321 D  registerFont(Serif,Constantia)
+2023-05-04 10:02:54.321 D  registerFont(Serif,Constantia)
+2023-05-04 10:02:54.321 D  registerFont(Serif,Constantia)
+2023-05-04 10:02:54.321 D  registerFont(Serif,Constantia)
+2023-05-04 10:02:54.322 D  registerFont(Serif,Constantia)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Corbel)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Corbel)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Corbel)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Corbel)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Corbel)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Corbel)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Corbel)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Corbel Light)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Corbel Light)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Corbel Light)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Corbel Light)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Corbel Light)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Corbel Light)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Corbel Light)
+2023-05-04 10:02:54.322 D  registerFont(MonoSpace,Courier New)
+2023-05-04 10:02:54.322 D  registerFont(MonoSpace,Courier New)
+2023-05-04 10:02:54.322 D  registerFont(MonoSpace,Courier New)
+2023-05-04 10:02:54.322 D  registerFont(MonoSpace,Courier New)
+2023-05-04 10:02:54.322 D  registerFont(MonoSpace,Courier New)
+2023-05-04 10:02:54.322 D  registerFont(MonoSpace,Courier New)
+2023-05-04 10:02:54.322 D  registerFont(MonoSpace,Courier New)
+2023-05-04 10:02:54.322 D  registerFont(MonoSpace,Courier New)
+2023-05-04 10:02:54.322 D  registerFont(MonoSpace,Courier New)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Ebrima)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Ebrima)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Ebrima)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Ebrima)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Franklin Gothic Medium)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Franklin Gothic Medium)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Franklin Gothic Medium)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Franklin Gothic Medium)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Franklin Gothic Medium)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Franklin Gothic Medium)
+2023-05-04 10:02:54.322 D  registerFont(Fantasy,Gabriola)
+2023-05-04 10:02:54.322 D  registerFont(Fantasy,Gabriola)
+2023-05-04 10:02:54.322 D  registerFont(Fantasy,Gabriola)
+2023-05-04 10:02:54.322 D  registerFont(Fantasy,Gabriola)
+2023-05-04 10:02:54.322 D  registerFont(Fantasy,Gabriola)
+2023-05-04 10:02:54.322 D  registerFont(Fantasy,Gabriola)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Gadugi)
+2023-05-04 10:02:54.322 D  registerFont(Serif,Georgia)
+2023-05-04 10:02:54.322 D  registerFont(Serif,Georgia)
+2023-05-04 10:02:54.322 D  registerFont(Serif,Georgia)
+2023-05-04 10:02:54.322 D  registerFont(Serif,Georgia)
+2023-05-04 10:02:54.322 D  registerFont(Serif,Georgia)
+2023-05-04 10:02:54.322 D  registerFont(Serif,Georgia)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Impact)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Impact)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Impact)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Impact)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Impact)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Impact)
+2023-05-04 10:02:54.322 D  registerFont(Cursive,Ink Free)
+2023-05-04 10:02:54.322 D  registerFont(Cursive,Ink Free)
+2023-05-04 10:02:54.322 D  registerFont(Cursive,Ink Free)
+2023-05-04 10:02:54.322 D  registerFont(Cursive,Ink Free)
+2023-05-04 10:02:54.322 D  registerFont(Cursive,Ink Free)
+2023-05-04 10:02:54.322 D  registerFont(Cursive,Ink Free)
+2023-05-04 10:02:54.322 D  registerFont(Cursive,Ink Free)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Javanese Text)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Leelawadee UI)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Leelawadee UI)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Leelawadee UI)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Leelawadee UI Semilight)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Leelawadee UI Semilight)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Leelawadee UI Semilight)
+2023-05-04 10:02:54.322 D  registerFont(MonoSpace,Lucida Console)
+2023-05-04 10:02:54.322 D  registerFont(MonoSpace,Lucida Console)
+2023-05-04 10:02:54.322 D  registerFont(MonoSpace,Lucida Console)
+2023-05-04 10:02:54.322 D  registerFont(MonoSpace,Lucida Console)
+2023-05-04 10:02:54.322 D  registerFont(MonoSpace,Lucida Console)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Lucida Sans Unicode)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Lucida Sans Unicode)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Lucida Sans Unicode)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Lucida Sans Unicode)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Lucida Sans Unicode)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Lucida Sans Unicode)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Lucida Sans Unicode)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Malgun Gothic)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Malgun Gothic)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Malgun Gothic Semilight)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Malgun Gothic Semilight)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Malgun Gothic Semilight)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Malgun Gothic Semilight)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Malgun Gothic Semilight)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Malgun Gothic Semilight)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Malgun Gothic Semilight)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Malgun Gothic Semilight)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Malgun Gothic Semilight)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Malgun Gothic Semilight)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Malgun Gothic Semilight)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Malgun Gothic Semilight)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Microsoft Himalaya)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Microsoft JhengHei)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Microsoft JhengHei)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Microsoft JhengHei)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Microsoft JhengHei UI)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Microsoft JhengHei UI)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Microsoft JhengHei UI)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Microsoft JhengHei Light)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Microsoft JhengHei Light)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Microsoft JhengHei Light)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Microsoft JhengHei UI Light)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Microsoft JhengHei UI Light)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Microsoft JhengHei UI Light)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Microsoft New Tai Lue)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Microsoft PhagsPa)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Microsoft Sans Serif)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Microsoft Sans Serif)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Microsoft Sans Serif)
+2023-05-04 10:02:54.322 D  registerFont(SansSerif,Microsoft Sans Serif)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,Microsoft Sans Serif)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,Microsoft Sans Serif)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,Microsoft Sans Serif)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,Microsoft Sans Serif)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,Microsoft Sans Serif)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,Microsoft Sans Serif)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,Microsoft Tai Le)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,微软雅黑)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,微软雅黑)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,微软雅黑)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,微软雅黑)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,微软雅黑)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,微软雅黑)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,Microsoft YaHei UI)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,Microsoft YaHei UI)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,Microsoft YaHei UI)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,Microsoft YaHei UI)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,Microsoft YaHei UI)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,Microsoft YaHei UI)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,微软雅黑 Light)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,微软雅黑 Light)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,微软雅黑 Light)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,微软雅黑 Light)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,微软雅黑 Light)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,微软雅黑 Light)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,Microsoft YaHei UI Light)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,Microsoft YaHei UI Light)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,Microsoft YaHei UI Light)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,Microsoft YaHei UI Light)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,Microsoft YaHei UI Light)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,Microsoft YaHei UI Light)
+2023-05-04 10:02:54.323 D  registerFont(Cursive,Microsoft Yi Baiti)
+2023-05-04 10:02:54.323 D  registerFont(Serif,MingLiU-ExtB)
+2023-05-04 10:02:54.323 D  registerFont(Serif,MingLiU-ExtB)
+2023-05-04 10:02:54.323 D  registerFont(Serif,PMingLiU-ExtB)
+2023-05-04 10:02:54.323 D  registerFont(Serif,PMingLiU-ExtB)
+2023-05-04 10:02:54.323 D  registerFont(Serif,MingLiU_HKSCS-ExtB)
+2023-05-04 10:02:54.323 D  registerFont(Serif,MingLiU_HKSCS-ExtB)
+2023-05-04 10:02:54.323 D  registerFont(Cursive,Mongolian Baiti)
+2023-05-04 10:02:54.323 D  registerFont(MonoSpace,MS Gothic)
+2023-05-04 10:02:54.323 D  registerFont(MonoSpace,MS Gothic)
+2023-05-04 10:02:54.323 D  registerFont(MonoSpace,MS Gothic)
+2023-05-04 10:02:54.323 D  registerFont(MonoSpace,MS Gothic)
+2023-05-04 10:02:54.323 D  registerFont(MonoSpace,MS Gothic)
+2023-05-04 10:02:54.323 D  registerFont(MonoSpace,MS Gothic)
+2023-05-04 10:02:54.323 D  registerFont(MonoSpace,MS Gothic)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,MS UI Gothic)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,MS UI Gothic)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,MS UI Gothic)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,MS UI Gothic)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,MS UI Gothic)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,MS UI Gothic)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,MS UI Gothic)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,MS PGothic)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,MS PGothic)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,MS PGothic)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,MS PGothic)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,MS PGothic)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,MS PGothic)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,MS PGothic)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,MV Boli)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,Myanmar Text)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,Nirmala UI)
+2023-05-04 10:02:54.323 D  registerFont(SansSerif,Nirmala UI Semilight)
+2023-05-04 10:02:54.323 D  registerFont(Serif,Palatino Linotype)
+2023-05-04 10:02:54.323 D  registerFont(Serif,Palatino Linotype)
+2023-05-04 10:02:54.323 D  registerFont(Serif,Palatino Linotype)
+2023-05-04 10:02:54.323 D  registerFont(Serif,Palatino Linotype)
+2023-05-04 10:02:54.323 D  registerFont(Serif,Palatino Linotype)
+2023-05-04 10:02:54.323 D  registerFont(Serif,Palatino Linotype)
+2023-05-04 10:02:54.323 D  registerFont(Serif,Palatino Linotype)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Sans Serif Collection)
+2023-05-04 10:02:54.324 D  registerFont(Serif,Segoe Fluent Icons)
+2023-05-04 10:02:54.324 D  registerFont(Serif,Segoe MDL2 Assets)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe Print)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe Print)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe Print)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe Print)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe Print)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe Print)
+2023-05-04 10:02:54.324 D  registerFont(Cursive,Segoe Script)
+2023-05-04 10:02:54.324 D  registerFont(Cursive,Segoe Script)
+2023-05-04 10:02:54.324 D  registerFont(Cursive,Segoe Script)
+2023-05-04 10:02:54.324 D  registerFont(Cursive,Segoe Script)
+2023-05-04 10:02:54.324 D  registerFont(Cursive,Segoe Script)
+2023-05-04 10:02:54.324 D  registerFont(Cursive,Segoe Script)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI Black)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI Black)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI Black)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI Black)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI Black)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI Black)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI Black)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI Emoji)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI Historic)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI Light)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI Light)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI Light)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI Light)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI Light)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI Light)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI Light)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI Light)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI Light)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI Semibold)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI Semibold)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI Semibold)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI Semibold)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI Semibold)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI Semibold)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI Semibold)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI Semibold)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI Semibold)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI Semilight)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI Semilight)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI Semilight)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI Semilight)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI Semilight)
+2023-05-04 10:02:54.324 D  registerFont(SansSerif,Segoe UI Semilight)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Semilight)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Semilight)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Semilight)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Symbol)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Small Light)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Small Light)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Small Light)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Small Light)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Small Light)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Small Light)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Small Light)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Small Semilig)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Small Semilig)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Small Semilig)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Small Semilig)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Small Semilig)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Small Semilig)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Small Semilig)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Small)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Small)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Small)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Small)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Small)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Small)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Small)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Small Semibol)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Small Semibol)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Small Semibol)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Small Semibol)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Small Semibol)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Small Semibol)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Small Semibol)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Text Light)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Text Light)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Text Light)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Text Light)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Text Light)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Text Light)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Text Light)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Text Semiligh)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Text Semiligh)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Text Semiligh)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Text Semiligh)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Text Semiligh)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Text Semiligh)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Text Semiligh)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Text)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Text)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Text)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Text)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Text)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Text)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Text)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Text Semibold)
+2023-05-04 10:02:54.325 D  registerFont(SansSerif,Segoe UI Variable Text Semibold)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Segoe UI Variable Text Semibold)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Segoe UI Variable Text Semibold)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Segoe UI Variable Text Semibold)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Segoe UI Variable Text Semibold)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Segoe UI Variable Text Semibold)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Segoe UI Variable Display Light)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Segoe UI Variable Display Light)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Segoe UI Variable Display Light)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Segoe UI Variable Display Light)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Segoe UI Variable Display Light)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Segoe UI Variable Display Light)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Segoe UI Variable Display Light)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Segoe UI Variable Display Semil)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Segoe UI Variable Display Semil)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Segoe UI Variable Display Semil)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Segoe UI Variable Display Semil)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Segoe UI Variable Display Semil)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Segoe UI Variable Display Semil)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Segoe UI Variable Display Semil)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Segoe UI Variable Display)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Segoe UI Variable Display)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Segoe UI Variable Display)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Segoe UI Variable Display)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Segoe UI Variable Display)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Segoe UI Variable Display)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Segoe UI Variable Display)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Segoe UI Variable Display Semib)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Segoe UI Variable Display Semib)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Segoe UI Variable Display Semib)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Segoe UI Variable Display Semib)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Segoe UI Variable Display Semib)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Segoe UI Variable Display Semib)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Segoe UI Variable Display Semib)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,宋体)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,宋体)
+2023-05-04 10:02:54.326 D  registerFont(MonoSpace,新宋体)
+2023-05-04 10:02:54.326 D  registerFont(MonoSpace,新宋体)
+2023-05-04 10:02:54.326 D  registerFont(MonoSpace,SimSun-ExtB)
+2023-05-04 10:02:54.326 D  registerFont(MonoSpace,SimSun-ExtB)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Sitka Small)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Sitka Small)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Sitka Small)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Sitka Small)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Sitka Small)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Sitka Small)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Sitka Small)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Sitka Small Semibold)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Sitka Small Semibold)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Sitka Small Semibold)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Sitka Small Semibold)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Sitka Small Semibold)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Sitka Small Semibold)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Sitka Small Semibold)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Sitka Text)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Sitka Text)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Sitka Text)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Sitka Text)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Sitka Text)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Sitka Text)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Sitka Text)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Sitka Text Semibold)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Sitka Text Semibold)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Sitka Text Semibold)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Sitka Text Semibold)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Sitka Text Semibold)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Sitka Text Semibold)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Sitka Text Semibold)
+2023-05-04 10:02:54.326 D  registerFont(SansSerif,Sitka Subheading)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Subheading)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Subheading)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Subheading)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Subheading)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Subheading)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Subheading)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Subheading Semibold)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Subheading Semibold)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Subheading Semibold)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Subheading Semibold)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Subheading Semibold)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Subheading Semibold)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Subheading Semibold)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Heading)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Heading)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Heading)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Heading)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Heading)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Heading)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Heading)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Heading Semibold)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Heading Semibold)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Heading Semibold)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Heading Semibold)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Heading Semibold)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Heading Semibold)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Heading Semibold)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Display)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Display)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Display)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Display)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Display)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Display)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Display)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Display Semibold)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Display Semibold)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Display Semibold)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Display Semibold)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Display Semibold)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Display Semibold)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Display Semibold)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Banner)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Banner)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Banner)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Banner)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Banner)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Banner)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Banner)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Banner Semibold)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Banner Semibold)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Banner Semibold)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Banner Semibold)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Banner Semibold)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Banner Semibold)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Sitka Banner Semibold)
+2023-05-04 10:02:54.327 D  registerFont(Serif,Sylfaen)
+2023-05-04 10:02:54.327 D  registerFont(Serif,Sylfaen)
+2023-05-04 10:02:54.327 D  registerFont(Serif,Sylfaen)
+2023-05-04 10:02:54.327 D  registerFont(Serif,Sylfaen)
+2023-05-04 10:02:54.327 D  registerFont(Serif,Sylfaen)
+2023-05-04 10:02:54.327 D  registerFont(Serif,Sylfaen)
+2023-05-04 10:02:54.327 D  registerFont(Serif,Symbol)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Tahoma)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Tahoma)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Tahoma)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Tahoma)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Tahoma)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Tahoma)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Tahoma)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Tahoma)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Tahoma)
+2023-05-04 10:02:54.327 D  registerFont(SansSerif,Tahoma)
+2023-05-04 10:02:54.327 D  registerFont(Serif,Times New Roman)
+2023-05-04 10:02:54.327 D  registerFont(Serif,Times New Roman)
+2023-05-04 10:02:54.327 D  registerFont(Serif,Times New Roman)
+2023-05-04 10:02:54.327 D  registerFont(Serif,Times New Roman)
+2023-05-04 10:02:54.327 D  registerFont(Serif,Times New Roman)
+2023-05-04 10:02:54.328 D  registerFont(Serif,Times New Roman)
+2023-05-04 10:02:54.328 D  registerFont(Serif,Times New Roman)
+2023-05-04 10:02:54.328 D  registerFont(Serif,Times New Roman)
+2023-05-04 10:02:54.328 D  registerFont(Serif,Times New Roman)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Trebuchet MS)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Trebuchet MS)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Trebuchet MS)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Trebuchet MS)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Trebuchet MS)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Trebuchet MS)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Verdana)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Verdana)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Verdana)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Verdana)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Verdana)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Verdana)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Verdana)
+2023-05-04 10:02:54.328 D  registerFont(Serif,Webdings)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Wingdings)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic UI)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic UI)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic UI)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic UI)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic UI)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic UI)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic UI)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic UI Semibold)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic UI Semibold)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic UI Semibold)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic UI Semibold)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic UI Semibold)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic UI Semibold)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic UI Semibold)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic Light)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic Light)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic Light)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic Light)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic Light)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic Light)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic Light)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic UI Light)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic UI Light)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic UI Light)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic UI Light)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic UI Light)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic UI Light)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic UI Light)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic Medium)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic Medium)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic Medium)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic Medium)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic Medium)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic Medium)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic Medium)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic UI Semilight)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic UI Semilight)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic UI Semilight)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic UI Semilight)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic UI Semilight)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic UI Semilight)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,Yu Gothic UI Semilight)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,等线)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,等线)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,等线)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,等线)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,等线)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,等线 Light)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,等线 Light)
+2023-05-04 10:02:54.328 D  registerFont(SansSerif,等线 Light)
+2023-05-04 10:02:54.329 D  registerFont(SansSerif,等线 Light)
+2023-05-04 10:02:54.329 D  registerFont(SansSerif,等线 Light)
+2023-05-04 10:02:54.329 D  registerFont(MonoSpace,仿宋)
+2023-05-04 10:02:54.329 D  registerFont(MonoSpace,仿宋)
+2023-05-04 10:02:54.329 D  registerFont(MonoSpace,楷体)
+2023-05-04 10:02:54.329 D  registerFont(MonoSpace,楷体)
+2023-05-04 10:02:54.329 D  registerFont(MonoSpace,黑体)
+2023-05-04 10:02:54.329 D  registerFont(MonoSpace,黑体)
+2023-05-04 10:02:54.329 D  registerFont(Serif,HoloLens MDL2 Assets)
+2023-05-04 10:02:54.329 D  registerFont(SansSerif,Agency FB)
+2023-05-04 10:02:54.329 D  registerFont(Fantasy,Algerian)
+2023-05-04 10:02:54.329 D  registerFont(Serif,Book Antiqua)
+2023-05-04 10:02:54.329 D  registerFont(Serif,Book Antiqua)
+2023-05-04 10:02:54.329 D  registerFont(Serif,Book Antiqua)
+2023-05-04 10:02:54.329 D  registerFont(Serif,Book Antiqua)
+2023-05-04 10:02:54.329 D  registerFont(Serif,Book Antiqua)
+2023-05-04 10:02:54.329 D  registerFont(Serif,Book Antiqua)
+2023-05-04 10:02:54.329 D  registerFont(SansSerif,Arial Narrow)
+2023-05-04 10:02:54.329 D  registerFont(SansSerif,Arial Narrow)
+2023-05-04 10:02:54.329 D  registerFont(SansSerif,Arial Narrow)
+2023-05-04 10:02:54.329 D  registerFont(SansSerif,Arial Narrow)
+2023-05-04 10:02:54.329 D  registerFont(SansSerif,Arial Narrow)
+2023-05-04 10:02:54.329 D  registerFont(SansSerif,Arial Narrow)
+2023-05-04 10:02:54.329 D  registerFont(SansSerif,Arial Rounded MT Bold)
+2023-05-04 10:02:54.329 D  registerFont(Serif,Baskerville Old Face)
+2023-05-04 10:02:54.329 D  registerFont(Fantasy,Bauhaus 93)
+2023-05-04 10:02:54.329 D  registerFont(Serif,Bell MT)
+2023-05-04 10:02:54.329 D  registerFont(Serif,Bernard MT Condensed)
+2023-05-04 10:02:54.329 D  registerFont(Serif,Bodoni MT)
+2023-05-04 10:02:54.329 D  registerFont(Serif,Bodoni MT Black)
+2023-05-04 10:02:54.329 D  registerFont(Serif,Bodoni MT Condensed)
+2023-05-04 10:02:54.329 D  registerFont(Serif,Bodoni MT Poster Compressed)
+2023-05-04 10:02:54.329 D  registerFont(Serif,Bodoni MT Poster Compressed)
+2023-05-04 10:02:54.329 D  registerFont(Serif,Bookman Old Style)
+2023-05-04 10:02:54.329 D  registerFont(Serif,Bookman Old Style)
+2023-05-04 10:02:54.329 D  registerFont(Serif,Bookman Old Style)
+2023-05-04 10:02:54.329 D  registerFont(Serif,Bookman Old Style)
+2023-05-04 10:02:54.329 D  registerFont(Serif,Bookman Old Style)
+2023-05-04 10:02:54.329 D  registerFont(Serif,Bookman Old Style)
+2023-05-04 10:02:54.329 D  registerFont(Cursive,Bradley Hand ITC)
+2023-05-04 10:02:54.329 D  registerFont(SansSerif,Britannic Bold)
+2023-05-04 10:02:54.329 D  registerFont(SansSerif,Berlin Sans FB)
+2023-05-04 10:02:54.329 D  registerFont(SansSerif,Berlin Sans FB Demi)
+2023-05-04 10:02:54.329 D  registerFont(Fantasy,Broadway)
+2023-05-04 10:02:54.329 D  registerFont(Cursive,Brush Script MT)
+2023-05-04 10:02:54.329 D  registerFont(SansSerif,Bookshelf Symbol 7)
+2023-05-04 10:02:54.329 D  registerFont(Serif,Californian FB)
+2023-05-04 10:02:54.329 D  registerFont(Serif,Calisto MT)
+2023-05-04 10:02:54.329 D  registerFont(Serif,Castellar)
+2023-05-04 10:02:54.329 D  registerFont(Serif,Century Schoolbook)
+2023-05-04 10:02:54.329 D  registerFont(Serif,Century Schoolbook)
+2023-05-04 10:02:54.329 D  registerFont(Serif,Century Schoolbook)
+2023-05-04 10:02:54.329 D  registerFont(Serif,Century Schoolbook)
+2023-05-04 10:02:54.329 D  registerFont(Serif,Century Schoolbook)
+2023-05-04 10:02:54.329 D  registerFont(Serif,Century Schoolbook)
+2023-05-04 10:02:54.329 D  registerFont(Serif,Centaur)
+2023-05-04 10:02:54.329 D  registerFont(Serif,Century)
+2023-05-04 10:02:54.329 D  registerFont(Serif,Century)
+2023-05-04 10:02:54.330 D  registerFont(Serif,Century)
+2023-05-04 10:02:54.330 D  registerFont(Serif,Century)
+2023-05-04 10:02:54.330 D  registerFont(Serif,Century)
+2023-05-04 10:02:54.330 D  registerFont(Serif,Century)
+2023-05-04 10:02:54.330 D  registerFont(Fantasy,Chiller)
+2023-05-04 10:02:54.330 D  registerFont(Fantasy,Colonna MT)
+2023-05-04 10:02:54.330 D  registerFont(Serif,Cooper Black)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Copperplate Gothic Bold)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Copperplate Gothic Light)
+2023-05-04 10:02:54.330 D  registerFont(Fantasy,Curlz MT)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Dubai)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Dubai)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Dubai Light)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Dubai Light)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Dubai Medium)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Dubai Medium)
+2023-05-04 10:02:54.330 D  registerFont(Serif,Elephant)
+2023-05-04 10:02:54.330 D  registerFont(Serif,Engravers MT)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Eras Bold ITC)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Eras Demi ITC)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Eras Light ITC)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Eras Medium ITC)
+2023-05-04 10:02:54.330 D  registerFont(Fantasy,Felix Titling)
+2023-05-04 10:02:54.330 D  registerFont(Cursive,Forte)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Franklin Gothic Book)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Franklin Gothic Book)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Franklin Gothic Book)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Franklin Gothic Book)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Franklin Gothic Book)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Franklin Gothic Book)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Franklin Gothic Demi)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Franklin Gothic Demi)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Franklin Gothic Demi)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Franklin Gothic Demi)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Franklin Gothic Demi)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Franklin Gothic Demi)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Franklin Gothic Demi Cond)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Franklin Gothic Demi Cond)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Franklin Gothic Demi Cond)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Franklin Gothic Demi Cond)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Franklin Gothic Demi Cond)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Franklin Gothic Demi Cond)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Franklin Gothic Heavy)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Franklin Gothic Heavy)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Franklin Gothic Heavy)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Franklin Gothic Heavy)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Franklin Gothic Heavy)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Franklin Gothic Heavy)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Franklin Gothic Medium Cond)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Franklin Gothic Medium Cond)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Franklin Gothic Medium Cond)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Franklin Gothic Medium Cond)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Franklin Gothic Medium Cond)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Franklin Gothic Medium Cond)
+2023-05-04 10:02:54.330 D  registerFont(Cursive,Freestyle Script)
+2023-05-04 10:02:54.330 D  registerFont(Cursive,French Script MT)
+2023-05-04 10:02:54.330 D  registerFont(Serif,Footlight MT Light)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,方正舒体)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,方正姚体)
+2023-05-04 10:02:54.330 D  registerFont(Serif,Garamond)
+2023-05-04 10:02:54.330 D  registerFont(Serif,Garamond)
+2023-05-04 10:02:54.330 D  registerFont(Serif,Garamond)
+2023-05-04 10:02:54.330 D  registerFont(Serif,Garamond)
+2023-05-04 10:02:54.330 D  registerFont(Serif,Garamond)
+2023-05-04 10:02:54.330 D  registerFont(Serif,Garamond)
+2023-05-04 10:02:54.330 D  registerFont(Fantasy,Gigi)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Gill Sans MT)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Gill Sans MT)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Gill Sans MT Condensed)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Gill Sans MT Condensed)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Gill Sans Ultra Bold Condensed)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Gill Sans Ultra Bold Condensed)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Gill Sans Ultra Bold)
+2023-05-04 10:02:54.330 D  registerFont(SansSerif,Gill Sans Ultra Bold)
+2023-05-04 10:02:54.331 D  registerFont(Serif,Gloucester MT Extra Condensed)
+2023-05-04 10:02:54.331 D  registerFont(SansSerif,Gill Sans MT Ext Condensed Bold)
+2023-05-04 10:02:54.331 D  registerFont(SansSerif,Gill Sans MT Ext Condensed Bold)
+2023-05-04 10:02:54.331 D  registerFont(SansSerif,Century Gothic)
+2023-05-04 10:02:54.331 D  registerFont(SansSerif,Century Gothic)
+2023-05-04 10:02:54.331 D  registerFont(SansSerif,Century Gothic)
+2023-05-04 10:02:54.331 D  registerFont(SansSerif,Century Gothic)
+2023-05-04 10:02:54.331 D  registerFont(SansSerif,Century Gothic)
+2023-05-04 10:02:54.331 D  registerFont(SansSerif,Century Gothic)
+2023-05-04 10:02:54.331 D  registerFont(Serif,Goudy Old Style)
+2023-05-04 10:02:54.331 D  registerFont(Serif,Goudy Stout)
+2023-05-04 10:02:54.331 D  registerFont(Fantasy,Harlow Solid Italic)
+2023-05-04 10:02:54.331 D  registerFont(Fantasy,Harrington)
+2023-05-04 10:02:54.331 D  registerFont(SansSerif,Haettenschweiler)
+2023-05-04 10:02:54.331 D  registerFont(SansSerif,Haettenschweiler)
+2023-05-04 10:02:54.331 D  registerFont(SansSerif,Haettenschweiler)
+2023-05-04 10:02:54.331 D  registerFont(SansSerif,Haettenschweiler)
+2023-05-04 10:02:54.331 D  registerFont(SansSerif,Haettenschweiler)
+2023-05-04 10:02:54.331 D  registerFont(SansSerif,Haettenschweiler)
+2023-05-04 10:02:54.331 D  registerFont(Serif,High Tower Text)
+2023-05-04 10:02:54.331 D  registerFont(Fantasy,Imprint MT Shadow)
+2023-05-04 10:02:54.331 D  registerFont(Cursive,Informal Roman)
+2023-05-04 10:02:54.331 D  registerFont(Fantasy,Blackadder ITC)
+2023-05-04 10:02:54.331 D  registerFont(Cursive,Edwardian Script ITC)
+2023-05-04 10:02:54.331 D  registerFont(Cursive,Kristen ITC)
+2023-05-04 10:02:54.331 D  registerFont(Fantasy,Jokerman)
+2023-05-04 10:02:54.331 D  registerFont(Fantasy,Juice ITC)
+2023-05-04 10:02:54.331 D  registerFont(Cursive,Kunstler Script)
+2023-05-04 10:02:54.331 D  registerFont(Serif,Wide Latin)
+2023-05-04 10:02:54.331 D  registerFont(Serif,Lucida Bright)
+2023-05-04 10:02:54.331 D  registerFont(Cursive,Lucida Calligraphy)
+2023-05-04 10:02:54.331 D  registerFont(Serif,Lucida Fax)
+2023-05-04 10:02:54.331 D  registerFont(Cursive,Lucida Handwriting)
+2023-05-04 10:02:54.331 D  registerFont(SansSerif,Lucida Sans)
+2023-05-04 10:02:54.331 D  registerFont(MonoSpace,Lucida Sans Typewriter)
+2023-05-04 10:02:54.331 D  registerFont(Fantasy,Magneto)
+2023-05-04 10:02:54.331 D  registerFont(SansSerif,Maiandra GD)
+2023-05-04 10:02:54.331 D  registerFont(Cursive,Matura MT Script Capitals)
+2023-05-04 10:02:54.331 D  registerFont(Cursive,Mistral)
+2023-05-04 10:02:54.331 D  registerFont(Cursive,Mistral)
+2023-05-04 10:02:54.331 D  registerFont(Cursive,Mistral)
+2023-05-04 10:02:54.331 D  registerFont(Cursive,Mistral)
+2023-05-04 10:02:54.331 D  registerFont(Cursive,Mistral)
+2023-05-04 10:02:54.331 D  registerFont(Cursive,Mistral)
+2023-05-04 10:02:54.331 D  registerFont(Serif,Modern No. 20)
+2023-05-04 10:02:54.331 D  registerFont(Cursive,Monotype Corsiva)
+2023-05-04 10:02:54.331 D  registerFont(Cursive,Monotype Corsiva)
+2023-05-04 10:02:54.331 D  registerFont(Cursive,Monotype Corsiva)
+2023-05-04 10:02:54.331 D  registerFont(Cursive,Monotype Corsiva)
+2023-05-04 10:02:54.331 D  registerFont(Cursive,Monotype Corsiva)
+2023-05-04 10:02:54.331 D  registerFont(Cursive,Monotype Corsiva)
+2023-05-04 10:02:54.331 D  registerFont(Fantasy,Niagara Engraved)
+2023-05-04 10:02:54.331 D  registerFont(Fantasy,Niagara Solid)
+2023-05-04 10:02:54.331 D  registerFont(Serif,OCR A Extended)
+2023-05-04 10:02:54.331 D  registerFont(Cursive,Old English Text MT)
+2023-05-04 10:02:54.331 D  registerFont(Fantasy,Onyx)
+2023-05-04 10:02:54.331 D  registerFont(SansSerif,MS Outlook)
+2023-05-04 10:02:54.331 D  registerFont(Cursive,Palace Script MT)
+2023-05-04 10:02:54.331 D  registerFont(Cursive,Papyrus)
+2023-05-04 10:02:54.331 D  registerFont(Cursive,Parchment)
+2023-05-04 10:02:54.331 D  registerFont(Serif,Perpetua)
+2023-05-04 10:02:54.331 D  registerFont(Serif,Perpetua Titling MT)
+2023-05-04 10:02:54.331 D  registerFont(Fantasy,Playbill)
+2023-05-04 10:02:54.331 D  registerFont(Serif,Poor Richard)
+2023-05-04 10:02:54.331 D  registerFont(Cursive,Pristina)
+2023-05-04 10:02:54.331 D  registerFont(Cursive,Rage Italic)
+2023-05-04 10:02:54.331 D  registerFont(Fantasy,Ravie)
+2023-05-04 10:02:54.331 D  registerFont(SansSerif,MS Reference Sans Serif)
+2023-05-04 10:02:54.331 D  registerFont(SansSerif,MS Reference Sans Serif)
+2023-05-04 10:02:54.331 D  registerFont(SansSerif,MS Reference Sans Serif)
+2023-05-04 10:02:54.331 D  registerFont(SansSerif,MS Reference Sans Serif)
+2023-05-04 10:02:54.331 D  registerFont(SansSerif,MS Reference Sans Serif)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,MS Reference Sans Serif)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,MS Reference Sans Serif)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,MS Reference Specialty)
+2023-05-04 10:02:54.332 D  registerFont(Serif,Rockwell Condensed)
+2023-05-04 10:02:54.332 D  registerFont(Serif,Rockwell)
+2023-05-04 10:02:54.332 D  registerFont(Serif,Rockwell Extra Bold)
+2023-05-04 10:02:54.332 D  registerFont(Cursive,Script MT Bold)
+2023-05-04 10:02:54.332 D  registerFont(Fantasy,Showcard Gothic)
+2023-05-04 10:02:54.332 D  registerFont(MonoSpace,隶书)
+2023-05-04 10:02:54.332 D  registerFont(MonoSpace,幼圆)
+2023-05-04 10:02:54.332 D  registerFont(Fantasy,Snap ITC)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文彩云)
+2023-05-04 10:02:54.332 D  registerFont(Fantasy,Stencil)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文仿宋)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文仿宋)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文仿宋)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文仿宋)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文仿宋)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文仿宋)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文仿宋)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文琥珀)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文楷体)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文楷体)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文楷体)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文楷体)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文楷体)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文楷体)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文楷体)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文隶书)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文宋体)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文宋体)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文宋体)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文宋体)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文宋体)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文宋体)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文宋体)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文细黑)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文细黑)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文细黑)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文细黑)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文细黑)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文细黑)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文细黑)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文行楷)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文新魏)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文中宋)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文中宋)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文中宋)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文中宋)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文中宋)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文中宋)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,华文中宋)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,Tw Cen MT)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,Tw Cen MT)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,Tw Cen MT Condensed)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,Tw Cen MT Condensed)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,Tw Cen MT Condensed Extra Bold)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,Tw Cen MT Condensed Extra Bold)
+2023-05-04 10:02:54.332 D  registerFont(Fantasy,Tempus Sans ITC)
+2023-05-04 10:02:54.332 D  registerFont(Cursive,Viner Hand ITC)
+2023-05-04 10:02:54.332 D  registerFont(Cursive,Vivaldi)
+2023-05-04 10:02:54.332 D  registerFont(Cursive,Vladimir Script)
+2023-05-04 10:02:54.332 D  registerFont(Serif,Wingdings 2)
+2023-05-04 10:02:54.332 D  registerFont(Serif,Wingdings 3)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,DejaVu Math TeX Gyre)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,DejaVu Math TeX Gyre)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,DejaVu Math TeX Gyre)
+2023-05-04 10:02:54.332 D  registerFont(SansSerif,DejaVu Math TeX Gyre)
+2023-05-04 10:02:54.333 D  registerFont(SansSerif,DejaVu Math TeX Gyre)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Code ExtraLight)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Code ExtraLight)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Code ExtraLight)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Code ExtraLight)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Code ExtraLight)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Code ExtraLight)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Code ExtraLight)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Code Light)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Code Light)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Code Light)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Code Light)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Code Light)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Code Light)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Code Light)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Code SemiLight)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Code SemiLight)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Code SemiLight)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Code SemiLight)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Code SemiLight)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Code SemiLight)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Code SemiLight)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Code)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Code)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Code)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Code)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Code)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Code)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Code)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Code SemiBold)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Code SemiBold)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Code SemiBold)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Code SemiBold)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Code SemiBold)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Code SemiBold)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Code SemiBold)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Mono ExtraLight)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Mono ExtraLight)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Mono ExtraLight)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Mono ExtraLight)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Mono ExtraLight)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Mono ExtraLight)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Mono ExtraLight)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Mono Light)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Mono Light)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Mono Light)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Mono Light)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Mono Light)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Mono Light)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Mono Light)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Mono SemiLight)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Mono SemiLight)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Mono SemiLight)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Mono SemiLight)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Mono SemiLight)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Mono SemiLight)
+2023-05-04 10:02:54.333 D  registerFont(MonoSpace,Cascadia Mono SemiLight)
+2023-05-04 10:02:54.335 D  registerFont(MonoSpace,Cascadia Mono)
+2023-05-04 10:02:54.335 D  registerFont(MonoSpace,Cascadia Mono)
+2023-05-04 10:02:54.335 D  registerFont(MonoSpace,Cascadia Mono)
+2023-05-04 10:02:54.335 D  registerFont(MonoSpace,Cascadia Mono)
+2023-05-04 10:02:54.335 D  registerFont(MonoSpace,Cascadia Mono)
+2023-05-04 10:02:54.335 D  registerFont(MonoSpace,Cascadia Mono)
+2023-05-04 10:02:54.335 D  registerFont(MonoSpace,Cascadia Mono)
+2023-05-04 10:02:54.335 D  registerFont(MonoSpace,Cascadia Mono SemiBold)
+2023-05-04 10:02:54.335 D  registerFont(MonoSpace,Cascadia Mono SemiBold)
+2023-05-04 10:02:54.335 D  registerFont(MonoSpace,Cascadia Mono SemiBold)
+2023-05-04 10:02:54.335 D  registerFont(MonoSpace,Cascadia Mono SemiBold)
+2023-05-04 10:02:54.335 D  registerFont(MonoSpace,Cascadia Mono SemiBold)
+2023-05-04 10:02:54.335 D  registerFont(MonoSpace,Cascadia Mono SemiBold)
+2023-05-04 10:02:54.335 D  registerFont(MonoSpace,Cascadia Mono SemiBold)
+2023-05-04 10:02:54.335 D  registerFont(Serif,MT Extra)
+2023-05-04 10:02:54.335 D  registerFont(SansSerif,Arial Unicode MS)
+2023-05-04 10:02:54.335 D  registerFont(SansSerif,Arial Unicode MS)
+2023-05-04 10:02:54.335 D  registerFont(SansSerif,Arial Unicode MS)
+2023-05-04 10:02:54.335 D  registerFont(SansSerif,Arial Unicode MS)
+2023-05-04 10:02:54.335 D  registerFont(SansSerif,Arial Unicode MS)
+2023-05-04 10:02:54.335 D  registerFont(SansSerif,Arial Unicode MS)
+2023-05-04 10:02:54.335 D  registerFont(SansSerif,Arial Unicode MS)
+2023-05-04 10:02:54.335 D  registerFont(SansSerif,Arial Unicode MS)
+2023-05-04 10:02:54.335 D  registerFont(SansSerif,Arial Unicode MS)
+2023-05-04 10:02:54.335 D  registerFont(SansSerif,Arial Unicode MS)
+2023-05-04 10:02:54.335 D  registerFont(SansSerif,Arial Unicode MS)
+2023-05-04 10:02:54.335 D  registerFont(SansSerif,Arial Unicode MS)
+2023-05-04 10:02:54.335 D  registerFont(SansSerif,Arial Unicode MS)
+2023-05-04 10:02:54.335 D  registerFont(SansSerif,Arial Unicode MS)
+2023-05-04 10:02:54.335 D  registerFont(SansSerif,Arial Unicode MS)
+2023-05-04 10:02:54.335 D  registerFont(SansSerif,Meiryo)
+2023-05-04 10:02:54.335 D  registerFont(SansSerif,Meiryo)
+2023-05-04 10:02:54.335 D  registerFont(SansSerif,Meiryo)
+2023-05-04 10:02:54.335 D  registerFont(SansSerif,Meiryo)
+2023-05-04 10:02:54.335 D  registerFont(SansSerif,Meiryo)
+2023-05-04 10:02:54.335 D  registerFont(SansSerif,Meiryo)
+2023-05-04 10:02:54.335 D  registerFont(SansSerif,Meiryo)
+2023-05-04 10:02:54.335 D  registerFont(SansSerif,Meiryo UI)
+2023-05-04 10:02:54.335 D  registerFont(SansSerif,Meiryo UI)
+2023-05-04 10:02:54.335 D  registerFont(SansSerif,Meiryo UI)
+2023-05-04 10:02:54.335 D  registerFont(SansSerif,Meiryo UI)
+2023-05-04 10:02:54.335 D  registerFont(SansSerif,Meiryo UI)
+2023-05-04 10:02:54.335 D  registerFont(SansSerif,Meiryo UI)
+2023-05-04 10:02:54.335 D  registerFont(SansSerif,Meiryo UI)
+2023-05-04 10:02:54.335 I  Found 1054 font faces
+2023-05-04 10:02:54.335 D  initResourceManagers()
+2023-05-04 10:02:54.335 I  Creating ImageCache
+2023-05-04 10:02:54.335 I  Creating DrawableCache
+2023-05-04 10:02:54.335 D  Calling initSharedResourceManagers()
+2023-05-04 10:02:54.335 D  Calling initStandardEditorActions()
+2023-05-04 10:02:54.335 D  Calling registerStandardWidgets()
+2023-05-04 10:02:54.335 D  Registering standard widgets for DML
+2023-05-04 10:02:54.335 D  initResourceManagers() -- finished
+2023-05-04 10:02:54.335 D  Creating default theme
+2023-05-04 10:02:54.335 I  Entering UIAppMain: ["E:\\dCode\\dlearn\\dlearn.exe"]
+2023-05-04 10:02:54.336 D  Platform.createWindow is called
+2023-05-04 10:02:54.336 V  Platform.createWindow : setDefaultLanguageAndThemeIfNecessary
+2023-05-04 10:02:54.336 V  setDefaultLanguageAndThemeIfNecessary : setting UI language
+2023-05-04 10:02:54.336 V  Loading language file
+2023-05-04 10:02:54.336 D  Loading string resources from file @embedded@/std_en.ini
+2023-05-04 10:02:54.336 D  Loading string resources from file @embedded@/en.ini
+2023-05-04 10:02:54.336 V  Calling onThemeChanged
+2023-05-04 10:02:54.336 D  DrawableCache.clear()
+2023-05-04 10:02:54.336 V  setDefaultLanguageAndThemeIfNecessary : setting UI theme
+2023-05-04 10:02:54.336 V  uiTheme setting new theme theme_default
+2023-05-04 10:02:54.336 D  <?xml version="1.0" encoding="utf-8"?>
+<theme id="theme_default"
+        fontSize="10pt"
+        fontFace="Helvetica Neue,Verdana,Arial,DejaVu Sans,Liberation Sans,Helvetica,Roboto,Droid Sans"
+        fontFamily="SansSerif"
+        >
+    <color id="window_background" value="#FFFFFF"/>
+    <color id="dialog_background" value="#EEEEEE"/>
+    <color id="edit_background" value="#FFFFFF"/>
+    <color id="edit_caret" value="#000000"/>
+    <color id="edit_caret_replace" value="#808080FF"/>
+    <color id="editor_matching_bracket_highlight" value="#60FFE0B0"/>
+    <color id="editor_selection_focused" value="#B060A0FF"/>
+    <color id="editor_selection_normal" value="#D060A0FF"/>
+    <color id="editor_search_highlight_current" value="#60A0C0FF"/>
+    <color id="editor_search_highlight_other" value="#90F0D080"/>
+    <color id="editor_left_pane_background" value="#F4F4F4"/>
+    <color id="editor_left_pane_background2" value="#FFFFFF"/>
+    <color id="editor_left_pane_background3" value="#F0F0F0"/>
+    <color id="editor_left_pane_line_number_text" value="#4060D0"/>
+    <color id="editor_left_pane_line_number_background" value="#F8F8F8"/>
+    <color id="editor_left_pane_line_icon_color_breakpoint" value="#FF0000"/>
+    <color id="editor_left_pane_line_icon_color_bookmark" value="#0000FF"/>
+    <color id="editor_left_pane_line_icon_color_error" value="#80FF0000"/>
+
+    <color id="grid_selection_color" value="#804040FF"/>
+    <color id="grid_selection_color_row" value="#C0A0B0FF"/>
+    <color id="grid_cell_background_fixed" value="#C0E0E0E0"/>
+    <color id="grid_cell_border_color" value="#C0C0C0C0"/>
+    <color id="grid_cell_border_color_header" value="#C0202020"/>
+    <color id="grid_cell_background_header" value="#C0909090"/>
+    <color id="grid_cell_background_header_selected" value="#80FFC040"/>
+    <color id="file_dialog_dir_name_color" value="#000080"/>
+
+    <style id="BUTTON"
+        backgroundImageId="btn_background"
+        align="Center"
+        margins="3pt,3pt,3pt,3pt"
+        focusRectColors="#000"
+        textFlags="UnderlineHotKeys"
+        >
+        <state state_enabled="true" state_hovered="true" textColor="#006080"/>
+        <state state_enabled="false" textColor="#80000000"/>
+    </style>
+    <style id="BUTTON_TRANSPARENT"
+        backgroundImageId="btn_background_transparent"
+        align="Center"
+        />
+    <style id="BUTTON_CHECK_TRANSPARENT"
+        backgroundImageId="btn_background_check_transparent"
+        align="Center"
+        />
+    <style id="BUTTON_LABEL"
+        layoutWidth="FILL_PARENT"
+        margins="2pt,2pt,2pt,2pt"
+        align="Left|VCenter"
+        textFlags="UnderlineHotKeys"
+        >
+        <state state_enabled="false" textColor="#80000000"/>
+        <state state_enabled="true" state_hovered="true" textColor="#006080"/>
+    </style>
+    <style id="BUTTON_LABEL_LINK" parent="BUTTON_LABEL"
+        textColor="#0000C0"
+        >
+        <state state_enabled="false" textColor="#60C0C0FF"/>
+        <state state_enabled="true" state_hovered="true" textColor="#8080FF" textFlags="Underline"/>
+    </style>
+    <style id="BUTTON_IMAGE"
+        margins="2,2,2,2"
+        align="Center"
+        />
+    <style id="SWITCH"
+        margins="2,2,2,2"
+        align="Center"
+        backgroundImageId="switch"
+        />
+    <style id="CHECKBOX"
+        backgroundImageId="@null"
+        margins="2,2,2,2"
+        padding="2,2,2,2"
+	focusRectColors="@null"
+        />
+    <style id="CHECKBOX_IMAGE" parent="BUTTON_IMAGE"
+        align="Center"
+        margins="2,2,2,2"
+        />
+    <style id="CHECKBOX_LABEL" parent="BUTTON_LABEL"
+        align="Left|VCenter"
+	focusRectColors="#000"
+        >
+        <state state_enabled="true" state_hovered="true" textColor="#006080"/>
+        <state state_enabled="false" textColor="#909090"/>
+    </style>
+    <style id="RADIOBUTTON" parent="CHECKBOX"
+        margins="2,2,2,2"
+        padding="2,2,2,2"
+        />
+    <style id="RADIOBUTTON_IMAGE" parent="CHECKBOX_IMAGE"
+        align="Center"
+        margins="2,2,2,2"
+        />
+    <style id="RADIOBUTTON_LABEL" parent="CHECKBOX_LABEL"
+        align="Left|VCenter"
+	focusRectColors="#000"
+        >
+        <state state_enabled="true" state_hovered="true" textColor="#006080"/>
+        <state state_enabled="false" textColor="#909090"/>
+    </style>
+    <style id="TEXT"
+        margins="2,2,2,2"
+        padding="1,1,1,1"
+        align="Left|VCenter"
+        >
+        <state state_enabled="false" textColor="#A0000000"/>
+    </style>
+    <style id="MULTILINE_TEXT"
+        margins="2,2,2,2"
+        padding="1,1,1,1"
+        align="Left|VCenter"
+        maxLines="0"
+        >
+        <state state_enabled="false" textColor="#A0000000"/>
+    </style>
+    <style id="HSPACER"
+        layoutWidth="FILL_PARENT"
+        layoutWeight="100"
+        minWidth="5"
+        />
+    <style id="VSPACER"
+        layoutHeight="FILL_PARENT"
+        layoutWeight="100"
+        minHeight="5"
+        />
+    <style id="BUTTON_NOMARGINS"
+        backgroundImageId="btn_background"
+        align="Center"
+        />
+    <color id="sample_color_rgb" value="#8CF"/>
+    <color id="sample_color_argb" value="#48CF"/>
+    <color id="sample_color_rrggbb" value="#80C0F0"/>
+    <color id="sample_color_aarrggbb" value="#4080C0F0"/>
+    <drawable id="btn_check" value="btn_check"/>
+    <drawable id="btn_radio" value="btn_radio"/>
+    <drawable id="scrollbar_button_up" value="scrollbar_btn_up"/>
+    <drawable id="scrollbar_button_down" value="scrollbar_btn_down"/>
+    <drawable id="scrollbar_button_left" value="scrollbar_btn_left"/>
+    <drawable id="scrollbar_button_right" value="scrollbar_btn_right"/>
+    <drawable id="scrollbar_indicator_vertical" value="scrollbar_indicator_vertical"/>
+    <drawable id="scrollbar_indicator_horizontal" value="scrollbar_indicator_horizontal"/>
+    <style id="SCROLLBAR"
+        backgroundColor="#dce2e8"
+        align="Center"
+        />
+    <style id="SLIDER"
+        backgroundImageId="slider_background"
+        align="Center"
+        />
+    <style id="SCROLLBAR_BUTTON"
+        backgroundImageId="scrollbar_btn_background"
+        align="Center"
+        />
+    <style id="SCROLLBAR_BUTTON_TRANSPARENT"
+        backgroundImageId="scrollbar_btn_transparent_background"
+        align="Center"
+        />
+    <style id="SLIDER"
+        />
+    <style id="PAGE_SCROLL"
+        backgroundColor="#FFFFFFFF"
+        >
+        <state state_pressed="true" backgroundColor="#C0404080"/>
+        <state state_hovered="true" backgroundColor="#F0404080"/>
+    </style>
+
+    <style id="TAB_DOWN_DARK"
+        backgroundImageId="dock_window_caption_background_down"
+        layoutWidth="FILL_PARENT"
+        >
+    </style>
+    <style id="TAB_DOWN_BUTTON_DARK"
+        padding="5,1,1,1"
+        backgroundImageId="tab_btn_dark_down"
+        />
+    <style id="TAB_UP_DARK"
+        backgroundImageId="dock_window_caption_background"
+        layoutWidth="FILL_PARENT"
+        >
+    </style>
+    <style id="TAB_UP_BUTTON_DARK"
+        padding="5,1,1,1"
+        backgroundImageId="tab_btn_dark_up"
+        >
+        <length id="overlap" value="2"/>
+    </style>
+    <style id="TAB_UP_BUTTON_DARK_TEXT"
+        textColor="#000000"
+        align="Center"
+        >
+        <state state_selected="false" state_window_focused="false" state_hovered="false" textColor="#9c9c9c"/>
+    </style>
+    <style id="TAB_UP"
+        backgroundImageId="tab_up_background"
+        layoutWidth="FILL_PARENT"
+        >
+        <state state_selected="true" backgroundImageId="tab_up_backgrond_selected"/>
+    </style>
+    <style id="TAB_UP_BUTTON_TEXT"
+        padding="3pt,1pt,3pt,1pt"
+        textColor="#000000"
+        align="Center"
+        >
+        <state state_selected="true" state_focused="true" textColor="#000000"/>
+        <state state_selected="true" textColor="#000000"/>
+        <state state_focused="true" textColor="#000000"/>
+        <state state_hovered="true" textColor="#0000C0"/>
+    </style>
+    <style id="TAB_UP_BUTTON"
+        backgroundImageId="tab_btn_up"
+        />
+    <style id="TAB_HOST"
+        layoutWidth="FILL_PARENT"
+        layoutHeight="FILL_PARENT"
+        backgroundColor="#F0F0F0"
+        />
+    <style id="TAB_WIDGET"
+        backgroundColor="#EEEEEE"
+        />
+
+    <style id="MAIN_MENU"
+        layoutWidth="FILL_PARENT"
+        backgroundImageId="main_menu_background"
+	layoutWeight="0"
+        />
+    <style id="MAIN_MENU_ITEM"
+        padding="4,2,4,2"
+        backgroundImageId="main_menu_item_background"
+        textFlags="Parent"
+        />
+    <style id="MENU_ITEM"
+        backgroundImageId="menu_item_background"
+        padding="4pt,2pt,4pt,2pt"
+        >
+    </style>
+    <style id="MENU_SEPARATOR"
+        backgroundImageId="menu_separator"
+        padding="4pt,2pt,4pt,2pt"
+        >
+    </style>
+    <style id="MENU_ICON"
+        margins="2,2,2,2"
+        align="Left|VCenter"
+        >
+        <state state_enabled="false" alpha="160"/>
+    </style>
+    <style id="MENU_LABEL"
+        margins="4,2,4,2"
+        align="Left|VCenter"
+        textFlags="UnderlineHotKeys"
+        >
+        <state state_enabled="false" textColor="#80404040"/>
+    </style>
+    <style id="MAIN_MENU_LABEL"
+        margins="4,2,4,2"
+        align="Left|VCenter"
+        textFlags="Parent"
+        >
+        <state state_enabled="false" textColor="#80404040"/>
+    </style>
+    <style id="MENU_ACCEL"
+        margins="4,2,4,2"
+        align="Left|VCenter"
+        >
+        <state state_enabled="false" textColor="#80404040"/>
+    </style>
+    <style id="TRANSPARENT_BUTTON_BACKGROUND"
+        backgroundImageId="btn_background_transparent"
+        padding="4,2,4,2"
+        />
+    <style id="POPUP_MENU"
+        backgroundImageId="popup_menu_background_normal"
+        />
+    <style id="LIST_ITEM"
+        backgroundImageId="list_item_background"
+        />
+
+    <style id="COMBO_BOX"
+        backgroundImageId="combobox_background"
+        padding="2,2,2,2"
+        margins="2,2,2,2"
+        minWidth="40"
+        />
+    <style id="COMBO_BOX_BODY"
+        padding="2,2,2,2"
+        minWidth="40"
+        align="Left|VCenter"
+	focusRectColors="#000"
+        />
+    <style id="COMBO_BOX_BUTTON"
+        padding="2,2,2,2"
+        backgroundImageId="btn_background_transparent"
+        align="Center"
+        />
+
+    <style id="EDIT_LINE"
+        backgroundImageId="editbox_background"
+        padding="4,4,4,4"
+        margins="2,2,2,2"
+        minWidth="40"
+        />
+    <style id="EDIT_BOX"
+        fontFace="Menlo,Consolas,DejaVuSansMono,Lucida Sans Typewriter,Courier New,Lucida Console"
+        backgroundImageId="editbox_background"
+        padding="2,2,2,2"
+        margins="2,2,2,2"
+        minWidth="100"
+        minHeight="60"
+        layoutWidth="FILL_PARENT"
+        layoutHeight="FILL_PARENT"
+        />
+    <style id="LOG_WIDGET"
+        fontFace="Menlo,Consolas,DejaVuSansMono,DejaVu Sans Mono,Lucida Sans Typewriter,Courier New,Lucida Console"
+        fontSize="9pt"
+        fontFamily="MonoSpace"
+        backgroundImageId="editbox_background"
+        padding="2,2,2,2"
+        margins="2,2,2,2"
+        minWidth="100"
+        minHeight="60"
+        layoutWidth="FILL_PARENT"
+        layoutHeight="FILL_PARENT"
+        />
+    <style id="LIST_BOX"
+        backgroundImageId="editbox_background"
+        padding="2,2,2,2"
+        margins="2,2,2,2"
+        layoutWidth="FILL_PARENT"
+        layoutHeight="FILL_PARENT"
+        />
+    <style id="EDIT_BOX_NO_FRAME"
+        fontFace="Menlo,Consolas,DejaVuSansMono,Lucida Sans Typewriter,Courier New,Lucida Console"
+        backgroundColor="#FFFFFF"
+        padding="2,2,2,2"
+        margins="2,2,2,2"
+        minWidth="100"
+        minHeight="60"
+        layoutWidth="FILL_PARENT"
+        layoutHeight="FILL_PARENT"
+        />
+    <style id="STRING_GRID"
+        backgroundImageId="editbox_background"
+        padding="2,2,2,2"
+        margins="2,2,2,2"
+        minWidth="100"
+        minHeight="60"
+        layoutWidth="FILL_PARENT"
+        layoutHeight="FILL_PARENT"
+        />
+    <style id="FILE_DIALOG_GRID"
+        backgroundImageId="editbox_background"
+        padding="2,2,2,2"
+        margins="2,2,2,2"
+        minWidth="100"
+        minHeight="60"
+        layoutWidth="FILL_PARENT"
+        layoutHeight="FILL_PARENT"
+        />
+    <style id="STATUS_LINE"
+        backgroundColor="#eceffa"
+        layoutWidth="FILL_PARENT"
+        layoutHeight="WRAP_CONTENT"
+        padding="1,1,1,1"
+	layoutWeight="0"
+        />
+    <style id="DOCK_HOST"
+        backgroundColor="#eceffa"
+        layoutWidth="FILL_PARENT"
+        layoutHeight="FILL_PARENT"
+        padding="2,2,2,2"
+        />
+    <style id="DOCK_HOST_BODY"
+        layoutWidth="FILL_PARENT"
+        layoutHeight="FILL_PARENT"
+        padding="0,0,0,0"
+        margins="3,3,3,3"
+        />
+    <style id="DOCK_WINDOW"
+        backgroundImageId="dock_window_background"
+        layoutWidth="FILL_PARENT"
+        layoutHeight="FILL_PARENT"
+        padding="0,0,0,0"
+        margins="2,2,2,2"
+        />
+    <style id="FLOATING_WINDOW"
+        backgroundImageId="popup_window_background"
+        layoutWidth="FILL_PARENT"
+        layoutHeight="FILL_PARENT"
+        padding="1,1,1,1"
+        margins="4,4,4,4"
+        />
+    <style id="DOCK_WINDOW_CAPTION"
+        backgroundImageId="dock_window_caption_background"
+        layoutWidth="FILL_PARENT"
+        layoutHeight="WRAP_CONTENT"
+        padding="1,1,1,1"
+        />
+    <style id="DOCK_WINDOW_CAPTION_LABEL"
+        textColor="#000000"
+        layoutWidth="FILL_PARENT"
+        layoutHeight="WRAP_CONTENT"
+        padding="3,3,3,3"
+        align="Left|VCenter"
+        />
+    <style id="DOCK_WINDOW_BODY"
+        layoutWidth="FILL_PARENT"
+        layoutHeight="FILL_PARENT"
+        padding="3,3,3,3"
+        />
+
+    <style id="TOOLBAR_HOST"
+        backgroundImageId="toolbar_host_background"
+        layoutWidth="FILL_PARENT"
+        layoutHeight="WRAP_CONTENT"
+        padding="1,1,1,1"
+        />
+    <style id="TOOLTIP"
+        backgroundImageId="tooltip_background"
+        layoutWidth="WRAP_CONTENT"
+        layoutHeight="WRAP_CONTENT"
+        margins="2,7,2,1"
+        padding="3,3,3,3"
+	textColor="#404040"
+        />
+    <style id="TOOLBAR"
+        backgroundImageId="toolbar_background"
+        layoutWidth="WRAP_CONTENT"
+        layoutHeight="WRAP_CONTENT"
+        margins="2,1,2,1"
+        />
+    <style id="TOOLBAR_BUTTON"
+        backgroundImageId="toolbar_button_background"
+        align="Center"
+        margins="1,1,1,1"
+        padding="2,2,2,2"
+        >
+        <state state_enabled="false" alpha="160" backgroundImageId="toolbar_button_null"/>
+    </style>
+    <style id="TOOLBAR_CONTROL"
+        backgroundImageId="toolbar_control_background"
+        align="Center"
+        margins="1,1,1,1"
+        padding="2,2,2,2"
+        >
+        <state state_enabled="false" alpha="160" backgroundImageId="@null"/>
+    </style>
+    <style id="TOOLBAR_SEPARATOR"
+        align="Center"
+        />
+
+    <style id="TREE_ITEM"
+        minWidth="100"
+        minHeight="14"
+        layoutWidth="FILL_PARENT"
+        layoutHeight="WRAP_CONTENT"
+        >
+    </style>
+    <style id="TREE_ITEM_EXPAND_ICON"
+        align="Left|VCenter"
+        textFlags="Parent"
+    />
+    <style id="TREE_ITEM_BODY"
+        align="Left|VCenter"
+        textFlags="Parent"
+        backgroundImageId="list_item_background"
+    />
+    <style id="TREE_ITEM_ICON"
+        align="Left|VCenter"
+        textFlags="Parent"
+    />
+    <style id="TREE_ITEM_LABEL"
+        layoutWidth="FILL_PARENT"
+        layoutHeight="WRAP_CONTENT"
+        align="Left|VCenter"
+        textFlags="Parent"
+        >
+        <state state_default="true" fontWeight="bold"/>
+    </style>
+
+    <style id="SETTINGS_TREE"
+        margins="8,8,8,8"
+        backgroundColor="#FFFFFF"
+        layoutWeight="3"
+    />
+
+    <style id="SETTINGS_PAGES"
+        margins="0,8,8,8"
+        padding="4,4,4,4"
+        layoutWidth="FILL_PARENT"
+        layoutWeight="5"
+    />
+
+    <style id="SETTINGS_PAGE_TITLE"
+        margins="4,4,4,14"
+	fontSize="120%"
+	layoutWeight="0"
+        layoutWidth="FILL_PARENT"
+    />
+
+    <style id="RESIZER_VERTICAL"
+        layoutWidth="FILL_PARENT"
+        layoutHeight="WRAP_CONTENT"
+	minHeight="7"
+	maxHeight="7"
+	backgroundColor="#E0E0E0">
+        <state state_focused="true" backgroundColor="#40C0C000"/>
+        <state state_pressed="true" backgroundColor="#4080C000"/>
+        <state state_selected="true" backgroundColor="#00F8F9Fa"/>
+        <state state_hovered="true" backgroundColor="#C0FFFF00"/>
+    </style>
+    <style id="RESIZER_HORIZONTAL"
+        layoutWidth="FILL_PARENT"
+        layoutHeight="WRAP_CONTENT"
+	minWidth="7"
+	maxWidth="7"
+	backgroundColor="#E0E0E0">
+        <state state_focused="true" backgroundColor="#40C0C000"/>
+        <state state_pressed="true" backgroundColor="#4080C000"/>
+        <state state_selected="true" backgroundColor="#00F8F9Fa"/>
+        <state state_hovered="true" backgroundColor="#C0FFFF00"/>
+    </style>
+
+    <style id="GROUP_BOX"
+        margins="2pt,4pt,2pt,2pt">
+        <drawable id="group_box_frame_up_left" value="group_box_frame_up_left"/>
+        <drawable id="group_box_frame_up_right" value="group_box_frame_up_right"/>
+        <drawable id="group_box_frame_bottom" value="group_box_frame_bottom"/>
+    </style>
+
+    <style id="GROUP_BOX_CAPTION"
+        align="Left|VCenter"
+	textColor="#504840"
+        padding="1pt,1pt,1pt,1pt">
+    </style>
+
+    <style id="PROGRESS_BAR"
+        padding="2pt,2pt,2pt,2pt"
+        margins="2pt,2pt,2pt,2pt"
+        minWidth="50pt"
+        minHeight="16pt"
+        backgroundImageId="progress_bar_background_frame"
+        >
+        <drawable id="progress_bar_gauge" value="#4080FF"/>
+        <drawable id="progress_bar_gauge_animation" value="progress_bar_gauge_animation.tiled"/>
+        <drawable id="progress_bar_indeterminate" value="#80C080"/>
+        <drawable id="progress_bar_indeterminate_animation" value="progress_bar_gauge_animation.tiled"/>
+    </style>
+
+   <style id="SIMPLE_BAR_CHART"
+        padding="2pt,2pt,2pt,2pt"
+        margins="2pt,2pt,2pt,2pt"
+        minWidth="250pt"
+        >
+        <color id="chart_background_color" value="#FFFFFF"/>
+        <color id="chart_axis_color" value="#C0C0C0"/>
+        <color id="chart_segment_tag_color" value="#C0C0C0"/>
+   </style>
+
+</theme>
+
+
+2023-05-04 10:02:54.337 D  ["state_hovered":"true", "textColor":"#006080", "state_enabled":"true"]
+2023-05-04 10:02:54.337 D  ["textColor":"#80000000", "state_enabled":"false"]
+2023-05-04 10:02:54.337 D  ["textColor":"#80000000", "state_enabled":"false"]
+2023-05-04 10:02:54.337 D  ["state_hovered":"true", "textColor":"#006080", "state_enabled":"true"]
+2023-05-04 10:02:54.337 D  ["textColor":"#60C0C0FF", "state_enabled":"false"]
+2023-05-04 10:02:54.337 D  ["state_hovered":"true", "textColor":"#8080FF", "state_enabled":"true", "textFlags":"Underline"]
+2023-05-04 10:02:54.337 D  ["state_hovered":"true", "textColor":"#006080", "state_enabled":"true"]
+2023-05-04 10:02:54.337 D  ["textColor":"#909090", "state_enabled":"false"]
+2023-05-04 10:02:54.337 D  ["state_hovered":"true", "textColor":"#006080", "state_enabled":"true"]
+2023-05-04 10:02:54.337 D  ["textColor":"#909090", "state_enabled":"false"]
+2023-05-04 10:02:54.337 D  ["textColor":"#A0000000", "state_enabled":"false"]
+2023-05-04 10:02:54.337 D  ["textColor":"#A0000000", "state_enabled":"false"]
+2023-05-04 10:02:54.337 D  ["backgroundColor":"#C0404080", "state_pressed":"true"]
+2023-05-04 10:02:54.337 D  ["backgroundColor":"#F0404080", "state_hovered":"true"]
+2023-05-04 10:02:54.337 D  ["state_window_focused":"false", "state_hovered":"false", "textColor":"#9c9c9c", "state_selected":"false"]
+2023-05-04 10:02:54.337 D  ["state_selected":"true", "backgroundImageId":"tab_up_backgrond_selected"]
+2023-05-04 10:02:54.337 D  ["textColor":"#000000", "state_selected":"true", "state_focused":"true"]
+2023-05-04 10:02:54.337 D  ["textColor":"#000000", "state_selected":"true"]
+2023-05-04 10:02:54.337 D  ["textColor":"#000000", "state_focused":"true"]
+2023-05-04 10:02:54.338 D  ["state_hovered":"true", "textColor":"#0000C0"]
+2023-05-04 10:02:54.338 D  ["alpha":"160", "state_enabled":"false"]
+2023-05-04 10:02:54.338 D  ["textColor":"#80404040", "state_enabled":"false"]
+2023-05-04 10:02:54.338 D  ["textColor":"#80404040", "state_enabled":"false"]
+2023-05-04 10:02:54.338 D  ["textColor":"#80404040", "state_enabled":"false"]
+2023-05-04 10:02:54.338 D  ["alpha":"160", "state_enabled":"false", "backgroundImageId":"toolbar_button_null"]
+2023-05-04 10:02:54.338 D  ["alpha":"160", "state_enabled":"false", "backgroundImageId":"@null"]
+2023-05-04 10:02:54.338 D  ["state_default":"true", "fontWeight":"bold"]
+2023-05-04 10:02:54.338 D  ["backgroundColor":"#40C0C000", "state_focused":"true"]
+2023-05-04 10:02:54.338 D  ["backgroundColor":"#4080C000", "state_pressed":"true"]
+2023-05-04 10:02:54.338 D  ["backgroundColor":"#00F8F9Fa", "state_selected":"true"]
+2023-05-04 10:02:54.338 D  ["backgroundColor":"#C0FFFF00", "state_hovered":"true"]
+2023-05-04 10:02:54.338 D  ["backgroundColor":"#40C0C000", "state_focused":"true"]
+2023-05-04 10:02:54.338 D  ["backgroundColor":"#4080C000", "state_pressed":"true"]
+2023-05-04 10:02:54.338 D  ["backgroundColor":"#00F8F9Fa", "state_selected":"true"]
+2023-05-04 10:02:54.338 D  ["backgroundColor":"#C0FFFF00", "state_hovered":"true"]
+2023-05-04 10:02:54.338 I  Applying loaded theme theme_default
+2023-05-04 10:02:54.338 D  DrawableCache.clear()
+2023-05-04 10:02:54.338 V  Platform.createWindow : new Win32Window
+2023-05-04 10:02:54.338 D  Screen dimensions: Rect(0, 0, 1920, 1080)
+2023-05-04 10:02:54.344 D  Window onCreate
+2023-05-04 10:02:54.344 V  created window, adding to map
+2023-05-04 10:02:54.344 D  Loading image from file @embedded@/dlangui-logo1.png
+2023-05-04 10:02:54.346 V  Loading language file
+2023-05-04 10:02:54.346 D  Loading string resources from file @embedded@/cn.ini
+2023-05-04 10:02:54.346 D  Loading string resources from file @embedded@/std_en.ini
+2023-05-04 10:02:54.346 D  Loading string resources from file @embedded@/en.ini
+2023-05-04 10:02:54.346 V  Calling onThemeChanged
+2023-05-04 10:02:54.346 D  DrawableCache.clear()
+2023-05-04 10:02:54.363 D  Loading image from file @embedded@/main_menu_background.9.png
+2023-05-04 10:02:54.363 D  Loading image from file @embedded@/main_menu_item_background_selected.9.png
+2023-05-04 10:02:54.363 D  Loading image from file @embedded@/main_menu_item_background_hover.9.png
+2023-05-04 10:02:54.363 D  loaded .xml drawable from @embedded@/main_menu_item_background.xml
+2023-05-04 10:02:54.368 D  Loading image from file @embedded@/toolbar_host_background.9.png
+2023-05-04 10:02:54.368 D  Loading image from file @embedded@/toolbar_background.9.png
+2023-05-04 10:02:54.368 W  resource document-about is not found
+2023-05-04 10:02:54.369 D  Loading image from file @embedded@/toolbar_button_hover.9.png
+2023-05-04 10:02:54.369 D  Loading image from file @embedded@/toolbar_button_pressed.9.png
+2023-05-04 10:02:54.369 D  loaded .xml drawable from @embedded@/toolbar_button_background.xml
+2023-05-04 10:02:54.369 W  resource document-lang is not found
+2023-05-04 10:02:54.369 D  Loading image from file @embedded@/editbox_background_disabled_focus.9.png
+2023-05-04 10:02:54.369 D  Loading image from file @embedded@/editbox_background_focus.9.png
+2023-05-04 10:02:54.370 D  Loading image from file @embedded@/editbox_background_disabled.9.png
+2023-05-04 10:02:54.370 D  Loading image from file @embedded@/editbox_background_normal.9.png
+2023-05-04 10:02:54.370 D  loaded .xml drawable from @embedded@/editbox_background.xml
+2023-05-04 10:02:54.370 D  Loading image from file @embedded@/scrollbar_btn_left.png
+2023-05-04 10:02:54.370 D  Loading image from file @embedded@/scrollbar_btn_background_pressed.9.png
+2023-05-04 10:02:54.370 D  Loading image from file @embedded@/scrollbar_btn_background_normal.9.png
+2023-05-04 10:02:54.370 D  Loading image from file @embedded@/scrollbar_btn_background_hover.9.png
+2023-05-04 10:02:54.370 D  loaded .xml drawable from @embedded@/scrollbar_btn_transparent_background.xml
+2023-05-04 10:02:54.370 D  Loading image from file @embedded@/scrollbar_btn_right.png
+2023-05-04 10:02:54.370 D  Loading image from file @embedded@/scrollbar_indicator_horizontal.png
+2023-05-04 10:02:54.370 D  Loading image from file @embedded@/scrollbar_btn_background_disabled.9.png
+2023-05-04 10:02:54.370 D  loaded .xml drawable from @embedded@/scrollbar_btn_background.xml
+2023-05-04 10:02:54.370 D  Loading image from file @embedded@/scrollbar_btn_up.png
+2023-05-04 10:02:54.370 D  Loading image from file @embedded@/scrollbar_btn_down.png
+2023-05-04 10:02:54.370 D  Loading image from file @embedded@/scrollbar_indicator_vertical.png
+2023-05-04 10:02:54.370 D  Loading image from file @embedded@/dock_window_background_focused.9.png
+2023-05-04 10:02:54.370 D  Loading image from file @embedded@/dock_window_background_normal.9.png
+2023-05-04 10:02:54.370 D  loaded .xml drawable from @embedded@/dock_window_background.xml
+2023-05-04 10:02:54.370 D  Loading image from file @embedded@/dock_window_caption_background_focused.9.png
+2023-05-04 10:02:54.370 D  Loading image from file @embedded@/dock_window_caption_background_normal.9.png
+2023-05-04 10:02:54.370 D  loaded .xml drawable from @embedded@/dock_window_caption_background.xml
+2023-05-04 10:02:54.372 D  Loading image from file @embedded@/close.png
+2023-05-04 10:02:54.372 D  Loading image from file @embedded@/btn_pressed.9.png
+2023-05-04 10:02:54.372 D  Loading image from file @embedded@/btn_hover.9.png
+2023-05-04 10:02:54.372 D  loaded .xml drawable from @embedded@/btn_background_transparent.xml
+2023-05-04 10:02:54.377 D  Loading image from file @embedded@/btn_default.9.png
+2023-05-04 10:02:54.377 D  Loading image from file @embedded@/btn_normal.9.png
+2023-05-04 10:02:54.377 D  Loading image from file @embedded@/btn_disabled.9.png
+2023-05-04 10:02:54.377 D  loaded .xml drawable from @embedded@/btn_background.xml
+2023-05-04 10:02:54.404 D  onResize 650x627
+2023-05-04 10:02:54.404 D  resize: measure took 0 ms
+2023-05-04 10:02:54.404 D  resize: layout took 0 ms
+2023-05-04 10:03:03.048 D  Loading image from file @embedded@/popup_menu_background_normal.9.png
+2023-05-04 10:03:03.048 D  Loading image from file @embedded@/list_item_selected.9.png
+2023-05-04 10:03:03.048 D  Loading image from file @embedded@/list_item_focused.9.png
+2023-05-04 10:03:03.048 D  Loading image from file @embedded@/list_item_hovered.9.png
+2023-05-04 10:03:03.048 D  loaded .xml drawable from @embedded@/menu_item_background.xml
+2023-05-04 10:03:03.976 D  loaded .xml drawable from @embedded@/list_item_background.xml
+2023-05-04 10:03:03.977 D  Platform.createWindow is called
+2023-05-04 10:03:03.977 V  Platform.createWindow : setDefaultLanguageAndThemeIfNecessary
+2023-05-04 10:03:03.977 V  Platform.createWindow : new Win32Window
+2023-05-04 10:03:03.977 D  Screen dimensions: Rect(0, 0, 1920, 1080)
+2023-05-04 10:03:03.979 D  Window onCreate
+2023-05-04 10:03:03.979 V  created window, adding to map
+2023-05-04 10:03:03.979 D  Loading image from file @embedded@/dlangui-logo1.png
+2023-05-04 10:03:03.984 D  loaded .xml drawable from @embedded@/combobox_background.xml
+2023-05-04 10:03:03.984 D  Loading image from file @embedded@/dialog-cancel.png
+2023-05-04 10:03:03.984 D  onResize 289x318
+2023-05-04 10:03:03.984 D  resize: measure took 0 ms
+2023-05-04 10:03:03.984 D  Loading image from file @embedded@/arrow_right_down_black.png
+2023-05-04 10:03:03.985 D  resize: layout took 1 ms
+2023-05-04 10:03:09.218 V  Loading language file
+2023-05-04 10:03:09.218 D  Loading string resources from file @embedded@/std_en.ini
+2023-05-04 10:03:09.218 D  Loading string resources from file @embedded@/en.ini
+2023-05-04 10:03:09.218 V  Calling onThemeChanged
+2023-05-04 10:03:09.218 D  DrawableCache.clear()
+2023-05-04 10:03:09.219 D  Window.close()
+2023-05-04 10:03:09.219 D  WM_CLOSE: closing window 
+2023-05-04 10:03:09.226 D  Window onDestroy
+2023-05-04 10:03:09.226 V  destroyed window, removing from map
+2023-05-04 10:03:09.226 E  Cannot find window in map by HWND
+2023-05-04 10:03:09.226 D  Window destructor
+2023-05-04 10:03:09.226 D  Destroying window
+2023-05-04 10:03:09.228 D  Loading image from file @embedded@/main_menu_background.9.png
+2023-05-04 10:03:09.228 D  Loading image from file @embedded@/scrollbar_btn_left.png
+2023-05-04 10:03:09.228 D  Loading image from file @embedded@/scrollbar_btn_background_pressed.9.png
+2023-05-04 10:03:09.228 D  Loading image from file @embedded@/scrollbar_btn_background_normal.9.png
+2023-05-04 10:03:09.228 D  Loading image from file @embedded@/scrollbar_btn_background_hover.9.png
+2023-05-04 10:03:09.228 D  loaded .xml drawable from @embedded@/scrollbar_btn_transparent_background.xml
+2023-05-04 10:03:09.228 D  Loading image from file @embedded@/scrollbar_btn_right.png
+2023-05-04 10:03:09.228 D  Loading image from file @embedded@/scrollbar_indicator_horizontal.png
+2023-05-04 10:03:09.228 D  Loading image from file @embedded@/scrollbar_btn_background_disabled.9.png
+2023-05-04 10:03:09.228 D  loaded .xml drawable from @embedded@/scrollbar_btn_background.xml
+2023-05-04 10:03:09.228 D  Loading image from file @embedded@/main_menu_item_background_selected.9.png
+2023-05-04 10:03:09.228 D  Loading image from file @embedded@/main_menu_item_background_hover.9.png
+2023-05-04 10:03:09.229 D  loaded .xml drawable from @embedded@/main_menu_item_background.xml
+2023-05-04 10:03:09.229 D  Loading image from file @embedded@/toolbar_host_background.9.png
+2023-05-04 10:03:09.229 D  Loading image from file @embedded@/toolbar_background.9.png
+2023-05-04 10:03:09.229 W  resource document-about is not found
+2023-05-04 10:03:09.229 D  Loading image from file @embedded@/toolbar_button_hover.9.png
+2023-05-04 10:03:09.229 D  Loading image from file @embedded@/toolbar_button_pressed.9.png
+2023-05-04 10:03:09.229 D  loaded .xml drawable from @embedded@/toolbar_button_background.xml
+2023-05-04 10:03:09.229 W  resource document-lang is not found
+2023-05-04 10:03:09.230 D  Loading image from file @embedded@/editbox_background_disabled_focus.9.png
+2023-05-04 10:03:09.230 D  Loading image from file @embedded@/editbox_background_focus.9.png
+2023-05-04 10:03:09.230 D  Loading image from file @embedded@/editbox_background_disabled.9.png
+2023-05-04 10:03:09.230 D  Loading image from file @embedded@/editbox_background_normal.9.png
+2023-05-04 10:03:09.230 D  loaded .xml drawable from @embedded@/editbox_background.xml
+2023-05-04 10:03:09.230 D  Loading image from file @embedded@/scrollbar_btn_up.png
+2023-05-04 10:03:09.230 D  Loading image from file @embedded@/scrollbar_btn_down.png
+2023-05-04 10:03:09.230 D  Loading image from file @embedded@/scrollbar_indicator_vertical.png
+2023-05-04 10:03:09.231 D  Loading image from file @embedded@/dock_window_background_focused.9.png
+2023-05-04 10:03:09.231 D  Loading image from file @embedded@/dock_window_background_normal.9.png
+2023-05-04 10:03:09.231 D  loaded .xml drawable from @embedded@/dock_window_background.xml
+2023-05-04 10:03:09.231 D  Loading image from file @embedded@/dock_window_caption_background_focused.9.png
+2023-05-04 10:03:09.231 D  Loading image from file @embedded@/dock_window_caption_background_normal.9.png
+2023-05-04 10:03:09.231 D  loaded .xml drawable from @embedded@/dock_window_caption_background.xml
+2023-05-04 10:03:09.231 D  Loading image from file @embedded@/close.png
+2023-05-04 10:03:09.231 D  Loading image from file @embedded@/btn_pressed.9.png
+2023-05-04 10:03:09.231 D  Loading image from file @embedded@/btn_hover.9.png
+2023-05-04 10:03:09.231 D  loaded .xml drawable from @embedded@/btn_background_transparent.xml
+2023-05-04 10:03:09.232 D  Loading image from file @embedded@/btn_default.9.png
+2023-05-04 10:03:09.232 D  Loading image from file @embedded@/btn_normal.9.png
+2023-05-04 10:03:09.233 D  Loading image from file @embedded@/btn_disabled.9.png
+2023-05-04 10:03:09.233 D  loaded .xml drawable from @embedded@/btn_background.xml
+2023-05-04 10:03:13.614 D  Loading image from file @embedded@/popup_menu_background_normal.9.png
+2023-05-04 10:03:13.614 D  Loading image from file @embedded@/list_item_selected.9.png
+2023-05-04 10:03:13.614 D  Loading image from file @embedded@/list_item_focused.9.png
+2023-05-04 10:03:13.614 D  Loading image from file @embedded@/list_item_hovered.9.png
+2023-05-04 10:03:13.614 D  loaded .xml drawable from @embedded@/menu_item_background.xml
+2023-05-04 10:03:14.610 D  loaded .xml drawable from @embedded@/list_item_background.xml
+2023-05-04 10:03:14.610 D  Platform.createWindow is called
+2023-05-04 10:03:14.610 V  Platform.createWindow : setDefaultLanguageAndThemeIfNecessary
+2023-05-04 10:03:14.610 V  Platform.createWindow : new Win32Window
+2023-05-04 10:03:14.610 D  Screen dimensions: Rect(0, 0, 1920, 1080)
+2023-05-04 10:03:14.615 D  Window onCreate
+2023-05-04 10:03:14.615 V  created window, adding to map
+2023-05-04 10:03:14.615 D  Loading image from file @embedded@/dlangui-logo1.png
+2023-05-04 10:03:14.616 D  loaded .xml drawable from @embedded@/combobox_background.xml
+2023-05-04 10:03:14.616 D  Loading image from file @embedded@/dialog-cancel.png
+2023-05-04 10:03:14.617 D  onResize 320x318
+2023-05-04 10:03:14.617 D  resize: measure took 0 ms
+2023-05-04 10:03:14.617 D  Loading image from file @embedded@/arrow_right_down_black.png
+2023-05-04 10:03:14.617 D  resize: layout took 0 ms
+2023-05-04 10:03:17.823 V  Loading language file
+2023-05-04 10:03:17.823 D  Loading string resources from file @embedded@/cn.ini
+2023-05-04 10:03:17.823 D  Loading string resources from file @embedded@/std_en.ini
+2023-05-04 10:03:17.823 D  Loading string resources from file @embedded@/en.ini
+2023-05-04 10:03:17.823 V  Calling onThemeChanged
+2023-05-04 10:03:17.823 D  DrawableCache.clear()
+2023-05-04 10:03:17.824 D  Window.close()
+2023-05-04 10:03:17.824 D  WM_CLOSE: closing window 
+2023-05-04 10:03:17.833 D  Window onDestroy
+2023-05-04 10:03:17.833 V  destroyed window, removing from map
+2023-05-04 10:03:17.833 E  Cannot find window in map by HWND
+2023-05-04 10:03:17.833 D  Window destructor
+2023-05-04 10:03:17.833 D  Destroying window
+2023-05-04 10:03:17.833 D  Loading image from file @embedded@/main_menu_background.9.png
+2023-05-04 10:03:17.833 D  Loading image from file @embedded@/scrollbar_btn_left.png
+2023-05-04 10:03:17.833 D  Loading image from file @embedded@/scrollbar_btn_background_pressed.9.png
+2023-05-04 10:03:17.833 D  Loading image from file @embedded@/scrollbar_btn_background_normal.9.png
+2023-05-04 10:03:17.834 D  Loading image from file @embedded@/scrollbar_btn_background_hover.9.png
+2023-05-04 10:03:17.834 D  loaded .xml drawable from @embedded@/scrollbar_btn_transparent_background.xml
+2023-05-04 10:03:17.834 D  Loading image from file @embedded@/scrollbar_btn_right.png
+2023-05-04 10:03:17.834 D  Loading image from file @embedded@/scrollbar_indicator_horizontal.png
+2023-05-04 10:03:17.834 D  Loading image from file @embedded@/scrollbar_btn_background_disabled.9.png
+2023-05-04 10:03:17.834 D  loaded .xml drawable from @embedded@/scrollbar_btn_background.xml
+2023-05-04 10:03:17.834 D  Loading image from file @embedded@/main_menu_item_background_selected.9.png
+2023-05-04 10:03:17.834 D  Loading image from file @embedded@/main_menu_item_background_hover.9.png
+2023-05-04 10:03:17.834 D  loaded .xml drawable from @embedded@/main_menu_item_background.xml
+2023-05-04 10:03:17.834 D  Loading image from file @embedded@/toolbar_host_background.9.png
+2023-05-04 10:03:17.834 D  Loading image from file @embedded@/toolbar_background.9.png
+2023-05-04 10:03:17.834 W  resource document-about is not found
+2023-05-04 10:03:17.834 D  Loading image from file @embedded@/toolbar_button_hover.9.png
+2023-05-04 10:03:17.834 D  Loading image from file @embedded@/toolbar_button_pressed.9.png
+2023-05-04 10:03:17.835 D  loaded .xml drawable from @embedded@/toolbar_button_background.xml
+2023-05-04 10:03:17.835 W  resource document-lang is not found
+2023-05-04 10:03:17.835 D  Loading image from file @embedded@/editbox_background_disabled_focus.9.png
+2023-05-04 10:03:17.835 D  Loading image from file @embedded@/editbox_background_focus.9.png
+2023-05-04 10:03:17.835 D  Loading image from file @embedded@/editbox_background_disabled.9.png
+2023-05-04 10:03:17.835 D  Loading image from file @embedded@/editbox_background_normal.9.png
+2023-05-04 10:03:17.835 D  loaded .xml drawable from @embedded@/editbox_background.xml
+2023-05-04 10:03:17.835 D  Loading image from file @embedded@/scrollbar_btn_up.png
+2023-05-04 10:03:17.835 D  Loading image from file @embedded@/scrollbar_btn_down.png
+2023-05-04 10:03:17.835 D  Loading image from file @embedded@/scrollbar_indicator_vertical.png
+2023-05-04 10:03:17.835 D  Loading image from file @embedded@/dock_window_background_focused.9.png
+2023-05-04 10:03:17.835 D  Loading image from file @embedded@/dock_window_background_normal.9.png
+2023-05-04 10:03:17.835 D  loaded .xml drawable from @embedded@/dock_window_background.xml
+2023-05-04 10:03:17.835 D  Loading image from file @embedded@/dock_window_caption_background_focused.9.png
+2023-05-04 10:03:17.836 D  Loading image from file @embedded@/dock_window_caption_background_normal.9.png
+2023-05-04 10:03:17.836 D  loaded .xml drawable from @embedded@/dock_window_caption_background.xml
+2023-05-04 10:03:17.836 D  Loading image from file @embedded@/close.png
+2023-05-04 10:03:17.836 D  Loading image from file @embedded@/btn_pressed.9.png
+2023-05-04 10:03:17.836 D  Loading image from file @embedded@/btn_hover.9.png
+2023-05-04 10:03:17.836 D  loaded .xml drawable from @embedded@/btn_background_transparent.xml
+2023-05-04 10:03:17.836 D  Loading image from file @embedded@/btn_default.9.png
+2023-05-04 10:03:17.836 D  Loading image from file @embedded@/btn_normal.9.png
+2023-05-04 10:03:17.836 D  Loading image from file @embedded@/btn_disabled.9.png
+2023-05-04 10:03:17.837 D  loaded .xml drawable from @embedded@/btn_background.xml
+2023-05-04 10:03:24.062 D  WM_CLOSE: closing window 
+2023-05-04 10:03:24.072 D  Window onDestroy
+2023-05-04 10:03:24.072 V  destroyed window, removing from map
+2023-05-04 10:03:24.076 E  Cannot find window in map by HWND
+2023-05-04 10:03:24.077 D  Window destructor
+2023-05-04 10:03:24.077 D  Destroying window
+2023-05-04 10:03:24.077 I  UIAppMain returned 0
+2023-05-04 10:03:24.077 I  Destroying DrawableCache
+2023-05-04 10:03:24.077 I  Destroying ImageCache
+2023-05-04 10:03:24.077 I  Destroying Win32FontManager
+2023-05-04 10:03:24.077 D  Destroying font manager
+2023-05-04 10:03:24.077 D  Exiting main
+2023-05-04 10:03:24.078 D  Calling GC.collect
