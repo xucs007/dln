@@ -104,6 +104,8 @@ class DMLSourceEdit : SourceEdit {
 class MainFrame : AppFrame {
 
     MenuItem mainMenuItems;
+
+    string settingsFile;
     AppSettings _settings;
 
     override protected void initialize() {
@@ -112,7 +114,8 @@ class MainFrame : AppFrame {
     }
 
     this(Window window) {
-	_settings = new AppSettings(buildNormalizedPath(settingsDir, "dlearnrc.json"));
+	settingsFile = buildNormalizedPath(settingsDir, "dlearnrc.json");
+	_settings = new AppSettings(settingsFile);
 	cacheFile = buildNormalizedPath(settingsDir, "dlearn_ini.d");
         applySettings(_settings);
 
@@ -144,6 +147,7 @@ class MainFrame : AppFrame {
     }
 
     void applySettings(AppSettings settings) {
+	// window.showMessageBox(UIString.fromRaw("Info"), UIString.fromRaw(settings.uiLanguage));
         Platform.instance.uiLanguage = settings.uiLanguage;
 	//Log.d("settings.uiLanguage=");
 	//Log.d(settings.uiLanguage);
@@ -198,6 +202,7 @@ class MainFrame : AppFrame {
         _filename = filename;
         window.windowCaption = toUTF32(filename);
         _editor.save(filename);
+	window.showMessageBox(UIString.fromId("Info"), UIString.fromRaw("Saved to: " ~ filename));
     }
 
     bool onCanClose() {
@@ -213,6 +218,7 @@ class MainFrame : AppFrame {
                 _settings.applySettings(s);
                 applySettings(_settings);
                 _settings.save();
+		window.showMessageBox(UIString.fromRaw("Info"), UIString.fromRaw("Saved to: " ~ settingsFile));
             }
         };
         dlg.show();

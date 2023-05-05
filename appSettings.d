@@ -13,11 +13,12 @@ class AppSettings : SettingsFile {
 
     this(string filename) {
         super(filename);
+	updateDefaults();
     }
 
     override void updateDefaults() {
         Setting ui = uiSettings();
-        ui.setStringDef("language", "cn");
+        ui.setStringDef("language", "en");
     }
 
     /// override to do something after loading - e.g. set defaults
