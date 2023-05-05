@@ -33,11 +33,12 @@ import std.algorithm;
 import std.array;
 import std.conv;
 import std.typecons;
+import std.traits;
 
 int main() {
-    
-    
-    writeln("Ok!");
+    int x=3;   
+	    
+    writeln("Ok! x is ", typeid(x));
     return 0;
 }
 };
@@ -147,11 +148,9 @@ class MainFrame : AppFrame {
     }
 
     void applySettings(AppSettings settings) {
-	// window.showMessageBox(UIString.fromRaw("Info"), UIString.fromRaw(settings.uiLanguage));
         Platform.instance.uiLanguage = settings.uiLanguage;
 	//Log.d("settings.uiLanguage=");
 	//Log.d(settings.uiLanguage);
-        //Platform.instance.uiLanguage = "cn";
         requestLayout();
     }
 
@@ -202,7 +201,7 @@ class MainFrame : AppFrame {
         _filename = filename;
         window.windowCaption = toUTF32(filename);
         _editor.save(filename);
-	window.showMessageBox(UIString.fromId("Info"), UIString.fromRaw("Saved to: " ~ filename));
+	// window.showMessageBox(UIString.fromId("Info"), UIString.fromRaw("Saved to: " ~ filename));
     }
 
     bool onCanClose() {
