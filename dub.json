@@ -1,5 +1,5 @@
 {
-	"name": "dlearn",
+	"name": "dln",
 	"authors": [
 		"John Xu"
 	],
@@ -19,10 +19,10 @@
 		"dlangui": "minimal"
 	},
 
-	"targetName": "dlearn",
+	"targetName": "dln",
 	"targetPath": ".",
 	"targetType": "executable",
-        "mainSourceFile": "dlearn.d",
+        "mainSourceFile": "dln.d",
         "sourceFiles": ["appSettings.d", "settings.d"],
 
 	"versions": [
