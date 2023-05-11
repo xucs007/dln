@@ -14,4 +14,4 @@ to find a good/working REPL under windows.
 界面可切换中英文。 安装dmd, 运行 dub, 就可以编译并运行。 
 折腾这个小工具的主因，是没在Windows上找到一个好的 REPL.
 
-![](https://raw.githubusercontent.com/xucs007/dln/main/screenshot/dln.png)
+![](https://raw.githubusercontent.com/xucs007/dln/main/screenshot/dln_v0.0.3.png)
