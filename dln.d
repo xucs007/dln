@@ -1,4 +1,4 @@
-module dlearn;
+module dln;
 
 import dlangui;
 import dlangui.core.logger;
@@ -35,10 +35,16 @@ import std.conv;
 import std.typecons;
 import std.traits;
 
+struct A {
+    int a;
+    string b;
+}
+
 int main() {
     int x=3;   
 	    
     writeln("Ok! x is ", typeid(x));
+    writeln("allMembers=", [ __traits(allMembers, A) ] );
     return 0;
 }
 };
@@ -97,7 +103,7 @@ class DMLSourceEdit : SourceEdit {
 
     }
     this() {
-        this("Dlearn");
+        this("Dln");
     }
 }
 
@@ -110,14 +116,14 @@ class MainFrame : AppFrame {
     AppSettings _settings;
 
     override protected void initialize() {
-        _appName = "DLearn";
+        _appName = "Dln";
         super.initialize();
     }
 
     this(Window window) {
-	settingsFile = buildNormalizedPath(settingsDir, "dlearnrc.json");
+	settingsFile = buildNormalizedPath(settingsDir, "dlnrc.json");
 	_settings = new AppSettings(settingsFile);
-	cacheFile = buildNormalizedPath(settingsDir, "dlearn_ini.d");
+	cacheFile = buildNormalizedPath(settingsDir, "dln_ini.d");
         applySettings(_settings);
 
         super();
